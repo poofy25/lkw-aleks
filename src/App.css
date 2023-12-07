@@ -3,4 +3,10 @@ html , body , #root {
   padding: 0;
   min-height: 100vh;
   font-family: Krub , sans-serif;
+  color: #1E1C1C;
+}
+p {
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
 }

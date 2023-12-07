@@ -5,6 +5,8 @@
     overflow: hidden;
     color: #f7f7f7;
     padding-left: 7.5vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -16,7 +18,7 @@
     left: 0;
     top: 0;
     object-fit: cover;
-    max-height: 100vh;
+    min-height: 100%;
     z-index: -1;
 }
 .gradient {

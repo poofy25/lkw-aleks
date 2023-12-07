@@ -1,10 +1,11 @@
 import styles from './navBar.module.css'
 
+import logoIMG from '/src/assets/svg/logo_black.svg'
 
 function NavBar() {
     return ( 
         <nav>
-            <section className={styles.logoBar}><p>LOGO</p></section>
+            <section className={styles.logoBar}><img src={logoIMG}/></section>
             <section className={styles.contactBar}>
                 <span className={styles.info}>
                     <a><img/>bd. Traian 22, Chisinau</a>
