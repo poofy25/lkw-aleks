@@ -1,0 +1,151 @@
+nav{
+    position: relative;
+}
+
+.logoBar {
+    color: #f7f7f7;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoBar > p{
+    z-index: 2;
+    color: #f7f7f7;
+}
+.logoBar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100000px;
+    bottom: 0;
+    right: 0px;
+    border-bottom: 130px solid #4F7FBE;
+    border-right: 75px solid transparent;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+.contactBar{
+    background-color: #050839;
+    color: #f7f7f7;
+    padding-left: calc(20% + 60px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    height: 3rem;
+    font-weight: 500;
+}
+
+.info{
+    display: flex;
+
+}
+.info > a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #f7f7f7;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #f7f7f7;
+}
+.info > a:first-child{
+    padding-left: 0;
+}
+.info > a:last-child{
+    border: none;
+    padding-right: 0;
+}
+
+.contactsBtn{
+    font-weight: 600;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contactsBtn::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(92% 0, 100% 50%, 92% 100%, 0% 100%, 6% 50%, 0% 0%);
+    background:  #5080be;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 1rem;
+    content: "Contact";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+
+
+
+
+.navigationBar {
+    background-color: #f7f7f7;
+    color: #1E1C1C;
+    padding-left: calc(20% + 60px);
+    padding-right: 60px;
+    box-sizing: border-box;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.navigationBar > a {
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navigationBar > a:first-child{
+    margin-left: 0;
+}
+.navigationBar > a:last-child{
+    margin-right: 0;
+}
+.navigationBar > select {
+    margin: 0;
+    margin-left: auto;
+    border: none;
+    background-color: #f7f7f7;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.navigationBar > select > option{
+    background-color: #050839;
+    color: #f7f7f7;
+    border-radius: 0;
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

@@ -1,0 +1,67 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: #f7f7f7;
+    padding-left: 7.5vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero > img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    max-height: 100vh;
+    z-index: -1;
+}
+.gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #050839 25%, rgba(0,212,255,0) 100%);
+    z-index: -1;
+}
+
+.hero > div {
+    background-color:  #5080be80;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: max-content;
+    border-left: 4px solid #5080be;
+}
+.hero > div > p {
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+.hero > h1{
+    font-size: 5rem;
+    max-width: 50%;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+    line-height: 5rem;
+
+}
+
+.hero > p {
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.hero > a {
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #5080be;
+    display: flex;
+    width: fit-content;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+

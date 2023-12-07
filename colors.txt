@@ -1,0 +1,7 @@
+Main - #050839
+
+Light Main -  #4F7FBE
+
+White - #f7f7f7
+
+Black -  #1E1C1C
