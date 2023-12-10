@@ -1,0 +1,54 @@
+.testimonials {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #050839;
+    color: #f7f7f7;
+    padding: 2rem 7.5vw 4rem 7.5vw;
+    box-sizing: border-box;
+}
+.section {
+    background-color:  #5080be80;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: max-content;
+    border-left: 4px solid #5080be;
+}
+.section > p{
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.header > h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.header > span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header > span > button {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #f7f7f7;
+    border-radius: 16px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: #f7f7f7;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+.header > span > button:hover {
+    background-color: #f7f7f7;
+    color: #050839;
+}
+.header > span > button:active {
+    opacity: 0.75;
+}
