@@ -84,7 +84,8 @@ const CertificationsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
     arrows: false,
     autoplay: false,
     autoplaySpeed: 2500,
-    pauseOnHover: true
+    pauseOnHover: true,
+    lazyLoad: true,
   };
 
  

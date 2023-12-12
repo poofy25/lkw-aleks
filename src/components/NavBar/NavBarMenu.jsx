@@ -11,7 +11,7 @@ import roFlag from '/src/assets/svg/romania.svg'
 import ruFlag from '/src/assets/svg/ru.svg'
 import enFlag from '/src/assets/svg/gb.svg'
 
-function NavBarMenu({status}) {
+function NavBarMenu({status , language , setLanguage}) {
 
 
     useEffect(()=>{
