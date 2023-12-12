@@ -23,6 +23,9 @@
     margin-bottom: 0;
     width: 40%;
 }
+.services > p {
+     opacity: 0.8;
+}
 
 
 

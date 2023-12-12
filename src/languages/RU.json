@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "contacts": {},
+        "navigation": {
+            "home": "Главная",
+            "aboutus": "О нас",
+            "services": "Услуги",
+            "whyus": "Почему мы",
+            "certificates": "Сертификаты",
+            "contact": "Контакт"
+        }
+    }
+}

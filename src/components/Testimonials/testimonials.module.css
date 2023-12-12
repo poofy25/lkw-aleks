@@ -1,8 +1,8 @@
 .testimonials {
     min-height: 100vh;
     width: 100%;
-    background-color: #050839;
-    color: #f7f7f7;
+    background-color: #f7f7f7;
+    color:#4F7FBE;
     padding: 2rem 7.5vw 4rem 7.5vw;
     box-sizing: border-box;
 }
@@ -16,6 +16,7 @@
     margin: 0;
     display: flex;
     font-weight: 600;
+    color: #050839;
 }
 
 .header{
@@ -38,17 +39,27 @@
 .header > span > button {
     font-size: 1.5rem;
     background-color: transparent;
-    border: 2px solid #f7f7f7;
+    border: 2px solid #4F7FBE;
+    background-color: #4F7FBE;
     border-radius: 16px;
     padding: 0.5rem 2rem 0.5rem 2rem;
-    color: #f7f7f7;
     cursor: pointer;
     transition: 0.25s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header > span > button:hover {
     background-color: #f7f7f7;
-    color: #050839;
+}
+.header > span > button:hover > img {
+    filter: invert(4%) sepia(44%) saturate(6349%) hue-rotate(236deg) brightness(112%) contrast(106%);
+
 }
 .header > span > button:active {
     opacity: 0.75;
+}
+.header > span > button > img {
+    width: 2rem;
+    filter: invert();
 }

@@ -8,26 +8,26 @@ import stats4 from '/src/assets/svg/stats4.svg'
 
 function Stats() {
     return ( 
-        <section className={styles.stats}>
+        <section id='stats' className={styles.stats}>
             <article>
                 <div><img src={stats1}/></div>
-                <h2>+1200</h2>
+                <h2>12000+</h2>
                 <p>Comenzi Efectuate</p>
             </article>
             <article>
                 <div><img src={stats2}/></div>
-                <h2>+95000</h2>
-                <p>Orase Deservite In Lume</p>
-            </article>
-            <article>
-                <div><img  src={stats3}/></div>
-                <h2>+200</h2>
-                <p>Clienti Multumiti</p>
+                <h2>50+</h2>
+                <p>Destinații</p>
             </article>
             <article>
                 <div><img  src={stats4}/></div>
-                <h2>+50</h2>
-                <p>Parteneri</p>
+                <h2>20+</h2>
+                <p>Ani De Experiență</p>
+            </article>
+            <article>
+                <div><img  src={stats3}/></div>
+                <h2>520+</h2>
+                <p>Clienți Mulțumiți</p>
             </article>
         </section>
      );

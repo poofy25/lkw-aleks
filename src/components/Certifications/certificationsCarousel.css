@@ -1,0 +1,31 @@
+.certification{
+  
+    background-color: #f7f7f7;
+    color: #1E1C1C;
+    padding: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin:2rem 0.5rem;
+    white-space: wrap;
+    align-self: stretch; cursor: grab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.certification > img {
+    width: 75%;
+    object-fit: cover;
+}
+
+
+.slick-dots li button:before {
+    color: white !important;
+
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white !important;
+}

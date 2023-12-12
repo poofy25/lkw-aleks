@@ -1,24 +1,25 @@
 import styles from './hero.module.css'
 
 import heroIMG from '/src/assets/img/hero.png'
+import arrowright from '/src/assets/svg/arrowright.svg'
 
 function Hero() {
     return ( 
-        <section className={styles.hero}>
+        <section id='acasa' className={styles.hero}>
             <img src={heroIMG}/>
             <span className={styles.gradient}></span>
             <div>
-                <p>Partenerul Tău De Încredere</p>
+                <p>Transport internațional, sigur și eficient </p>
             </div>
-            <h1>Slouții Eficiente De Transport Internațional</h1>
+            <h1>Soluții optime către orice destinație</h1>
             <p>
-            Cu o experiență de peste două decenii în domeniul transportului internațional de mărfuri, 
+            Cu o experiență de peste două decenii în domeniul transportului internațional de mărfuri,
             <br/>
-            LKW-ALEKS Spedition reprezintă soluția ta de încredere pentru logistică eficientă și sigură. 
+            LKW-ALEKS Spedition reprezintă soluția ta de încredere pentru transport eficient și sigur.
             <br/>
             Descoperă serviciile noastre de top și parteneriatele solide pe care le construim cu clienții noștri!
             </p>
-            <a>Contacteazăne</a>
+            <a href='#contact'>Obțineți oferta personalizată <img src={arrowright}/></a>
         </section>
      );
 }

@@ -1,0 +1,13 @@
+{
+    "navbar":{
+        "contacts":{},
+        "navigation":{
+            "home":"Home",
+            "aboutus":"About Us",
+            "services":"Services",
+            "whyus":"Why Us",
+            "certificates":"Certificates",
+            "contact":"Contact"
+        }
+    }
+}

@@ -7,39 +7,41 @@ import About from './components/About/About'
 import Stats from './components/Stats/Stats'
 import Services from './components/Services/Services'
 import WhyUs from './components/WhyUs/WhyUs'
+import Certifications from './components/Certifications/Certifications'
 import Testimonials from './components/Testimonials/Testimonials'
+import FAQ from './components/Faq/Faq'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+
+import { useEffect  ,useState } from 'react'
+import useWindowSize from './hooks/WindowResize'
 
 function App() {
 
+  const size = useWindowSize()
+  const [width , setWidth] = useState(window.screen.width)
+  const [language , setLanguage] = useState('RO')
+
+  useEffect(()=>{
+    console.log(size)
+    setWidth(size.width)
+  },[size])
+
+
+
   return (
     <>
-    <NavBar/>
+    <NavBar width={width} language={language} setLanguage={setLanguage}/>
     <Hero/>
     <About/>
     <Stats/>
     <Services/>
     <WhyUs/>
+    <Certifications></Certifications>
     <Testimonials/>
+    <FAQ/>
     <Contact/>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
-    <h1>AAAAAAAAA</h1>
+    <Footer/>
     </>
   )
 }

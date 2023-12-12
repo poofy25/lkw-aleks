@@ -1,0 +1,65 @@
+.certifications {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #050839;
+    color: #f7f7f7;
+    padding: 2rem 7.5vw 4rem 7.5vw;
+    box-sizing: border-box;
+}
+.certifications > h2 {
+    font-size: 2.5rem;
+}
+.section {
+    background-color:  #5080be80;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: max-content;
+    border-left: 4px solid #5080be;
+}
+.section > p{
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.header > p {
+    opacity: 0.8;
+    width: 50%;
+}
+.header > span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header > span > button {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #f7f7f7;
+    border-radius: 16px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: #f7f7f7;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > span > button:hover {
+    background-color: #f7f7f7;
+}
+.header > span > button:hover > img {
+    filter: invert(4%) sepia(44%) saturate(6349%) hue-rotate(236deg) brightness(112%) contrast(106%);
+}
+.header > span > button:active {
+    opacity: 0.75;
+}
+.header > span > button > img {
+    width: 2rem;
+    filter: invert();
+}

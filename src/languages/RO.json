@@ -1,0 +1,13 @@
+{
+    "navbar":{
+        "contacts":{},
+        "navigation":{
+            "home":"Acasă",
+            "aboutus":"Despre Noi",
+            "services":"Servicii",
+            "whyus":"De Ce Noi",
+            "certificates":"Certificate",
+            "contact":"Contact"
+        }
+    }
+}

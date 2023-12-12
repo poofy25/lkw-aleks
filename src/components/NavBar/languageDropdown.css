@@ -1,0 +1,58 @@
+.languageDropdownContainer{
+    width: max-content;
+    margin: 0;
+    margin-left: auto;
+    position: relative;
+}
+.currentLanguage{
+    display: flex;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+.currentLanguage > img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.1);
+}
+.languageDropdown{
+    position: absolute;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.languageDropdown.active{
+    display: flex;
+}
+
+.languageDropdown > button {
+    display: flex;
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    color:#f7f7f7;
+    background-color: #050839;
+    border: none;
+    transition: 0.25s ease-in-out;
+}
+.languageDropdown > button > img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.1);
+}
+.languageDropdown > button:hover{
+    background-color: #4F7FBE;
+}
+.languageDropdown > button.selected{
+    opacity: 0.5;
+}

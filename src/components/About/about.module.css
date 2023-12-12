@@ -99,9 +99,27 @@ align-items: center;
     padding: 1rem 3rem 1rem 3rem;
     background-color: #5080be;
     display: flex;
+    align-items: center;
     width: fit-content;
     font-weight: 700;
     border-radius: 4px;
     margin-top: 2rem;
     color: #f7f7f7;
+    transition: 0.25s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+.textSection > a > img {
+    width: 1.5rem;
+    filter: invert();
+    margin-left: 0.5rem;
+}
+.textSection > a:hover{
+    border: 2px solid #5080be;
+    background-color: #f7f7f7;
+    color: #5080be;
+}
+.textSection > a:hover > img {
+    filter: invert(51%) sepia(47%) saturate(602%) hue-rotate(174deg) brightness(85%) contrast(84%);
 }

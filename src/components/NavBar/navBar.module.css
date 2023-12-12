@@ -1,5 +1,18 @@
 nav{
-    position: relative;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+nav.small > .contactBar {
+    display: none;
+}
+nav.small > .logoBar > img {
+    height: 75%;
+}
+nav.small > .logoBar::before{
+    border-bottom: 5rem solid #4F7FBE;
 }
 
 .logoBar {
@@ -49,22 +62,34 @@ nav{
     font-weight: 500;
 }
 
-.info{
+.contacts{
     display: flex;
 
 }
-.info > a {
+.contacts > a {
     font-size: 0.9rem;
     text-decoration: none;
     color: #f7f7f7;
     padding-left: 1rem;
     padding-right: 1rem;
     border-right: 1px solid #f7f7f7;
+    display: flex;
+    align-items: center;
+    transition: 0.25s ease-in-out;
 }
-.info > a:first-child{
+.contacts > a > img {
+    width: 1.5rem;
+    margin-right: 1rem;
+    filter: invert(47%) sepia(33%) saturate(764%) hue-rotate(174deg) brightness(94%) contrast(92%);
+
+}
+.contacts > a:hover {
+    color: #4F7FBE;
+}
+.contacts > a:first-child{
     padding-left: 0;
 }
-.info > a:last-child{
+.contacts > a:last-child{
     border: none;
     padding-right: 0;
 }
@@ -78,6 +103,7 @@ nav{
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: pointer;
 }
 .contactsBtn::before{
     position: absolute;
@@ -94,9 +120,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 200ms linear;
-    transition-delay: 0.1s;
+    transition: 0.25s ease-in-out;
     z-index: 1;
+}
+.contactsBtn:hover::before{
+    background-color: #f7f7f7;
+    color: #4F7FBE;
 }
 
 
@@ -116,13 +145,20 @@ nav{
 }
 .navigationBar > a {
     height: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
     font-weight: 700;
+    color: #1E1C1C;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+    font-weight: 600;
+}
+.navigationBar > a:hover{
+    color: #4F7FBE;
 }
 .navigationBar > a:first-child{
     margin-left: 0;
@@ -150,3 +186,91 @@ nav{
     justify-content: center;
     padding: 1rem;
 }
+
+.menuBtn {
+    height: 75%;
+    aspect-ratio: 1;
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    z-index: 999;
+}
+.menuBtn > div {
+    width: 100%;
+    height: 2px;
+    background-color: #050839;
+    border-radius: 999px;
+}
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+
+    nav> .contactBar {
+        display: none;
+    }
+    nav > .logoBar > img {
+        height: 50%;
+    }
+    nav > .logoBar::before{
+        border-bottom: 5rem solid #4F7FBE;
+    }
+    .logoBar {
+        width: 60%;
+        padding-left: 25px;
+    }
+    .navigationBar {
+        padding-left: calc(60% + 25px);
+        padding-right: 25px;
+    }
+    .navigationBar > a {
+        display: none;
+    }
+    
+}
+@media only screen and (min-width: 640px) and (max-width:992px) {
+
+    nav> .contactBar {
+        display: none;
+    }
+    nav > .logoBar > img {
+        height: 50%;
+    }
+    nav > .logoBar::before{
+        border-bottom: 5rem solid #4F7FBE;
+    }
+    .logoBar {
+        width: 40%;
+        padding-right: 25px;
+    }
+    .navigationBar {
+        padding-left: calc(40% + 25px);
+        padding-right: 25px;
+
+    }
+    .navigationBar > a {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+
+    nav> .contactBar {
+        display: none;
+    }
+    nav > .logoBar > img {
+        height: 50%;
+    }
+    nav > .logoBar::before{
+        border-bottom: 5rem solid #4F7FBE;
+    }
+
+
+}
+

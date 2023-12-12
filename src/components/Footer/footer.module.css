@@ -1,0 +1,134 @@
+footer{
+    background-color: #050839;
+    color: #f7f7f7;
+    width: 100%;
+    overflow: hidden;
+    padding: 4rem 7.5vw 8rem 7.5vw;
+    box-sizing: border-box;
+    position: relative;
+}
+.content{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.content > article {
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+}
+.company > img {
+    width: 75%;
+    margin-bottom: 1rem;
+    filter: invert(99%) sepia(10%) saturate(288%) hue-rotate(196deg) brightness(115%) contrast(94%);
+}
+.company > a > img {
+    width: 2rem;
+    filter: invert() ;
+}
+.company > a> img:hover{
+    filter: invert(47%) sepia(33%) saturate(764%) hue-rotate(174deg) brightness(94%) contrast(92%);
+}
+
+.company > p {
+    opacity: 0.8;
+}
+.company > h4 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+.navigation > h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.navigation > a {
+    text-decoration: none;
+    color: #f7f7f7;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.navFirstA{
+    margin-top: 0px !important;
+}
+.navigation > a:hover{
+    color:   #4F7FBE;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact > h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.contact > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact > div > span > p {
+    margin: 0;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+
+}
+.contact > div > span > a {
+    font-weight: 600;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+.contact > div > span > a:hover{
+    color: #4F7FBE;
+}
+.contact > div > img {
+    width: 2rem;
+    margin-right: 2rem;
+    background-color: rgba(80, 128, 190,0.5);
+    padding: 0.5rem;
+    border-radius: 99px;
+    filter: invert(48%) sepia(93%) saturate(314%) hue-rotate(174deg) brightness(83%) contrast(87%);
+}
+
+
+
+
+.credits {
+    width: 100%;
+    background-color: #1E1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 7.5vw 0 7vw;
+    color: #f7f7f7;
+}
+.credits > p:last-child{
+    opacity: 0.5;
+    font-size: 0.9rem;
+}

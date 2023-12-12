@@ -4,6 +4,7 @@ html , body , #root {
   min-height: 100vh;
   font-family: Krub , sans-serif;
   color: #1E1C1C;
+  scroll-behavior: smooth;
 }
 p {
   line-height: 1.5rem;
