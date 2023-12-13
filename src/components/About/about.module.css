@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding-left: 7.5vw;
-    padding-right: 7.5vw;
+    padding: 2rem 7.5vw 2rem 7.5vw;
     background-color: #f7f7f7;
     box-sizing: border-box;
 }

@@ -82,8 +82,10 @@ function NavBar({width , language , setLanguage}) {
                 <a href='#servicii'>{langJson.navigation.services}</a>
                 <a href='#decenoi'>{langJson.navigation.whyus}</a>
                 <a href='#certificate'>{langJson.navigation.certificates}</a>
+                {width > 1200 && <>
                 <a href='#recenzii'>{langJson.navigation.testimonials}</a>
                 <a href='#faq'>{langJson.navigation.faq}</a>
+                </>}
                 <a href='#contact'>{langJson.navigation.contact}</a>
                 {width > 992 ? 
                 <>
@@ -98,7 +100,7 @@ function NavBar({width , language , setLanguage}) {
                 }
                 
             </section>
-            <NavBarMenu status={menuActive} language={language} setLanguage={setLanguage}/>
+            <NavBarMenu  status={menuActive} setStatus={setMenuActive} language={language} setLanguage={setLanguage}/>
         </nav>
      );
 }

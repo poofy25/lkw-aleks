@@ -13,6 +13,7 @@
     justify-content: center;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 .currentLanguage > img {
     width: 1.5rem;
@@ -55,4 +56,15 @@
 }
 .languageDropdown > button.selected{
     opacity: 0.5;
+}
+
+.languagearrow{
+    height: 50%;
+    aspect-ratio: 1;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(75% , 50%);
+    cursor: pointer;
 }

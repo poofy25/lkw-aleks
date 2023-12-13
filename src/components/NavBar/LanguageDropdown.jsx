@@ -5,6 +5,8 @@ import roFlag from '/src/assets/svg/romania.svg'
 import ruFlag from '/src/assets/svg/ru.svg'
 import enFlag from '/src/assets/svg/gb.svg'
 
+import smallarrow from '/src/assets/svg/smallarrow.svg'
+
 const flags = {
     RO:roFlag,
     RU:ruFlag,
@@ -52,6 +54,7 @@ function LanguageDropdown({language , setLanguage}) {
 
         <div className='languageDropdownContainer'>
             <button onClick={dropDownHandler} className='currentLanguage'><img src={flags[language]}/>{language}</button>
+            <img onClick={dropDownHandler} src={smallarrow} className='languagearrow'></img>
             <span className='languageDropdown'>
                 <button className='selected' onClick={(e)=>{languageClickHandler(e,'RO')}}><img src={roFlag}/>RO</button>
                 <button onClick={(e)=>{languageClickHandler(e,'RU')}}><img src={ruFlag}/>RU</button>
