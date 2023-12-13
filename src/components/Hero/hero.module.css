@@ -96,7 +96,7 @@
     
     }
     .gradient {
-        background: linear-gradient(90deg, #050839 0%, rgba(0,212,255,0) 100%);
+        background: linear-gradient(90deg, #050839 0%, #05083980 100%);
     }
     .hero > img{
         object-position: 60%;

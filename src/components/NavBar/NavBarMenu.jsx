@@ -26,9 +26,16 @@ function NavBarMenu({status , setStatus , language , setLanguage}) {
         }
     },[status])
 
+    const menuClick = (e)=>{
+        if(e.target !== document.querySelector(`.${styles.menuContent}`
+        )){
+            setStatus(false)
+        }
+    }
+
     return ( 
 
-        <section className={styles.menu}>
+        <section onClick={menuClick} className={styles.menu}>
 
             <section className={styles.menuContent}>
             <a onClick={()=>{setStatus(!status)}} href='#acasa'>Acasă</a>
