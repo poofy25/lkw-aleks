@@ -61,7 +61,7 @@ function Footer() {
                     </div>
                     </div>
                     <div className={styles.contactWrapper}>
-                        <h4>Romania</h4>
+                        <h4>România</h4>
                         <div>
                             <img src={location}/>
                             <span>

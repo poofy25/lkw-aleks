@@ -24,7 +24,7 @@ function Contact() {
             <h2>Contactează-ne</h2>
             <span>
                 <button className={contact && styles.active} onClick={()=>{setContact(true)}}>Moldova</button>
-                <button className={!contact && styles.active} onClick={()=>{setContact(false)}}>Romania</button>
+                <button className={!contact && styles.active} onClick={()=>{setContact(false)}}>România</button>
             </span>
             {contact ? 
             <div>
