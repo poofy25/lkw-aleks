@@ -4,7 +4,6 @@ nav{
     width: 100%;
     z-index: 999;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    overflow: hidden;
 }
 nav.small > .contactBar {
     display: none;
@@ -34,7 +33,6 @@ nav.small > .logoBar::before{
 .logoBar::before{
     content: "";
     position: absolute;
-    top: 0;
     left: -100000px;
     bottom: 0;
     right: 0px;
