@@ -4,9 +4,7 @@
     position: relative;
     overflow: hidden;
     color: #f7f7f7;
-    padding-left: 7.5vw;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 7.5vw 2rem 7.5vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -85,9 +83,42 @@
     filter: invert(5%) sepia(50%) saturate(5217%) hue-rotate(236deg) brightness(104%) contrast(107%);
 }
 
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .hero {
+        margin-top: 5rem;
+    }
+    .hero > h1{
+        font-size: 3rem;
+        max-width: 100%;
+        margin-top: 0.35em;
+        margin-bottom: 0.35em;
+        line-height: 3.5rem;
+    
+    }
+    .gradient {
+        background: linear-gradient(90deg, #050839 0%, rgba(0,212,255,0) 100%);
+    }
+    .hero > img{
+        object-position: 60%;
+    }
+    
+}
 
+@media only screen and (min-width: 640px) and (max-width:992px) {
+    .hero {
+        margin-top: 5rem;
+    }
+    .hero > h1{
+        font-size: 4rem;
+        max-width: 60%;
+        margin-top: 0.35em;
+        margin-bottom: 0.35em;
+        line-height: 4rem;
+    
+    }
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width:1200px) {
 
     .hero {
         margin-top: 5rem;

@@ -63,3 +63,29 @@
     width: 2rem;
     filter: invert();
 }
+
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+
+.testimonials{
+    min-height: 0;
+    padding-bottom: 2rem;
+}
+.header{
+    flex-direction: column;
+}
+.header > h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.header > span {
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+}
+
+@media only screen and (min-width: 640px) and (max-width:992px) {}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {}

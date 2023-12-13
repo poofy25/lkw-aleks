@@ -124,3 +124,19 @@ align-items: center;
 .textSection > a:hover > img {
     filter: invert(51%) sepia(47%) saturate(602%) hue-rotate(174deg) brightness(85%) contrast(84%);
 }
+
+
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .about{
+        flex-direction: column;
+        padding: 2rem 7.5vw 2rem 7.5vw;
+    }
+    .imgSection {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width:992px) {}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {}

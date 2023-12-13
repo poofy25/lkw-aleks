@@ -46,3 +46,20 @@
 .faqWrapper{
     width: 50%;
 }
+
+@media only screen and (min-width: 0px) and (max-width:640px) {
+    .gradient {
+        background: linear-gradient(90deg, #050839 0%, #050839af 100%);
+    }
+
+    .faq > h2 {
+        font-size: 2rem;
+    }
+    .faqWrapper{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width:992px) {}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {}

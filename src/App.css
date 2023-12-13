@@ -5,7 +5,10 @@ html , body , #root {
   font-family: Krub , sans-serif;
   color: #1E1C1C;
   scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
 }
+
 p {
   line-height: 1.5rem;
   font-weight: 500;

@@ -57,10 +57,16 @@ const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
-    autoplaySpeed: 2500,
-    pauseOnHover: true,
     lazyLoad: true,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   };
 
  
