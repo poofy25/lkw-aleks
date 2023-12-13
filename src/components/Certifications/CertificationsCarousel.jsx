@@ -3,19 +3,22 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './certificationsCarousel.css';
 
-import certificate1 from '/src/assets/img/certifications/1 - Certificat inregistrare.png'
-import certificate2 from '/src/assets/img/certifications/2 - Licenta 2.png'
-import certificate3 from '/src/assets/img/certifications/3 - Licenta 1.png'
-import certificate4 from '/src/assets/img/certifications/4 - 2017 - 2.png'
-import certificate5 from '/src/assets/img/certifications/5 - 2017.png'
-import certificate6 from '/src/assets/img/certifications/6 - 2014.png'
-import certificate7 from '/src/assets/img/certifications/7 - Certificat Camera de Comert.png'
-import certificate8 from '/src/assets/img/certifications/8 - 2013.png'
-import certificate9 from '/src/assets/img/certifications/9 - 2012.png'
-import certificate10 from '/src/assets/img/certifications/10 - 2008.png'
-import certificate11 from '/src/assets/img/certifications/11 - 2007.png'
+import certificate1 from '/src/assets/img/certifications/1.png'
+import certificate2 from '/src/assets/img/certifications/2.png'
+import certificate3 from '/src/assets/img/certifications/3.png'
+import certificate4 from '/src/assets/img/certifications/4.png'
+import certificate5 from '/src/assets/img/certifications/5.png'
+import certificate6 from '/src/assets/img/certifications/6.png'
+import certificate7 from '/src/assets/img/certifications/7.png'
+import certificate8 from '/src/assets/img/certifications/8.png'
+import certificate9 from '/src/assets/img/certifications/9.png'
+import certificate10 from '/src/assets/img/certifications/10.png'
+import certificate11 from '/src/assets/img/certifications/11.png'
 import Medal1 from '/src/assets/img/certifications/Medalie AITA.png'
 import Medal2 from '/src/assets/img/certifications/Medalie IRU.png'
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -96,7 +99,8 @@ const CertificationsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
         {certificationsData.map((certification) => (
           <div className='certificationWrapper' key={certification.id}>
             <article className='certification' >
-                <img src={certification.src}/>
+            <LazyLoadImage effect="blur" src={certification.src}></LazyLoadImage>
+
             </article>
            </div>
         ))}

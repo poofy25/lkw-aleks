@@ -7,6 +7,9 @@ import service4 from '/src/assets/img/service4.png'
 import service5 from '/src/assets/img/service5.png'
 import service7 from '/src/assets/img/service7.png'
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function Services() {
     return ( 
         <section id='servicii' className={styles.services}>
@@ -16,7 +19,7 @@ function Services() {
             <p>LKW-ALEKS Spedition oferă o gamă variată de soluții integrate de depozitare, distribuție si transport, în toate regiunile lumii, rapid și accesibil!</p>
             <section>
                 <article>
-                    <img src={service1}></img>
+                <LazyLoadImage effect="blur" src={service1}></LazyLoadImage>
                     <section>
                         <h4>Transport Rutier Internațional</h4>
                         <p>
@@ -26,7 +29,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <img src={service3}></img>
+                    <LazyLoadImage effect="blur" src={service3}></LazyLoadImage>
                     <section>
                         <h4>Transport de Mărfuri Generale</h4>
                         <p>
@@ -36,7 +39,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <img src={service4}></img>
+                    <LazyLoadImage effect="blur" src={service4}></LazyLoadImage>
                     <section>
                         <h4>Transport de Mărfuri Periculoase (ADR)</h4>
                         <p>
@@ -46,7 +49,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <img src={service5}></img>
+                    <LazyLoadImage effect="blur" src={service5}></LazyLoadImage>
                     <section>
                         <h4>Transport Agabaritic</h4>
                         <p>
@@ -56,7 +59,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <img src={service7}></img>
+                    <LazyLoadImage effect="blur" src={service7}></LazyLoadImage>
                     <section>
                         <h4>Transport Frigorific</h4>
                         <p>
@@ -66,7 +69,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <img src={service2}></img>
+                    <LazyLoadImage effect="blur" src={service2}></LazyLoadImage>
                     <section>
                         <h4>Servicii de logistică</h4>
                         <p>

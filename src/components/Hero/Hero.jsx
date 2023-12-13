@@ -19,7 +19,7 @@ function Hero() {
             <br/>
             Descoperă serviciile noastre de top și parteneriatele solide pe care le construim cu clienții noștri!
             </p>
-            <a href='#contact'>Obțineți oferta personalizată <img src={arrowright}/></a>
+            <a href='#contact'>Obține oferta personalizată <img src={arrowright}/></a>
         </section>
      );
 }

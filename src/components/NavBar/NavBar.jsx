@@ -69,9 +69,9 @@ function NavBar({width , language , setLanguage}) {
             <section className={styles.logoBar}><img src={logoIMG}/></section>
             <section className={styles.contactBar}>
                 <span className={styles.contacts}>
-                    <a><img src={location}/>bd. Traian 22, Chisinau</a>
                     <a href='mailto:info@lkw-aleks.com'><img src={email}/>info@lkw-aleks.com</a>
-                    <a href='tel:+37369150150'><img src={call}/>+373 69 150 150</a>
+                    <a href='tel:+37369150151'><img src={call}/>+373 69 150 151</a>
+                    <a href='tel:++40 758 074 350'><img src={call}/>+40 758 074 350</a>
                 </span>
                 <a className={styles.iconLink}><img/></a>
                 <a href='#contact' className={styles.contactsBtn}>{'Contacte >'}</a>
@@ -82,6 +82,8 @@ function NavBar({width , language , setLanguage}) {
                 <a href='#servicii'>{langJson.navigation.services}</a>
                 <a href='#decenoi'>{langJson.navigation.whyus}</a>
                 <a href='#certificate'>{langJson.navigation.certificates}</a>
+                <a href='#recenzii'>{langJson.navigation.testimonials}</a>
+                <a href='#faq'>{langJson.navigation.faq}</a>
                 <a href='#contact'>{langJson.navigation.contact}</a>
                 {width > 992 ? 
                 <>

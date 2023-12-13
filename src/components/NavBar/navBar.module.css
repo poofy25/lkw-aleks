@@ -4,6 +4,7 @@ nav{
     width: 100%;
     z-index: 999;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 nav.small > .contactBar {
     display: none;

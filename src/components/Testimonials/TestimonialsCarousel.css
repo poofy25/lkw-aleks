@@ -22,15 +22,19 @@
     flex-wrap: wrap;
     justify-content: start;
 }
-.testimonial > div > img {
+.testimonial > div > span:first-child {
     width: 20%;
     border-radius: 999px;
+    overflow: hidden;
     object-fit: cover;
     aspect-ratio: 1;
     margin-right: 1rem;
     box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.1);
     border: 2px solid #4F7FBE;
-
+}
+.testimonial > div > span > img {
+   width: 100%;
+   aspect-ratio: 1;
 }
 .testimonial > div > span{
     display: flex;

@@ -1,6 +1,11 @@
 import styles from './faq.module.css'
 import Faq from "react-faq-component";
 import './faqComponent.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+import faqImg from '/src/assets/img/faq.png'
+
 function FAQ() {
 
 
@@ -57,8 +62,10 @@ function FAQ() {
 
     return ( 
         <section id='faq' className={styles.faq}>
-            <div><p>FAQ</p></div>
-            <h2>Întrebari Fregvente</h2>
+            <LazyLoadImage effect="blur" src={faqImg}></LazyLoadImage>
+            <span className={styles.gradient}></span>
+            <div className={styles.div}><p>FAQ</p></div>
+            <h2>Întrebari Frecvente</h2>
             <div className={styles.faqWrapper}>
                 <Faq
                     data={data}

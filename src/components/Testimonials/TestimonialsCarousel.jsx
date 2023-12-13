@@ -8,6 +8,11 @@ import img2 from '/src/assets/img/testimonials2.png'
 import img3 from '/src/assets/img/testimonials3.png'
 import img4 from '/src/assets/img/testimonials4.png'
 
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 const testimonialsData = [
   {
     id: 1,
@@ -15,29 +20,29 @@ const testimonialsData = [
     name: 'Radu Popescu',
     title:'Client Mulțumit',
     service:'Transport Mărfuri Generale',
-    quote: 'Am apelat la XYZ Logistics pentru transportul nostru de mărfuri generale, iar serviciul lor a fost excepțional. Livrări prompte, manipulare atentă a produselor noastre și o echipă profesionistă îi fac partenerul nostru preferat în logistica.',
+    quote: 'Am apelat la LKW-ALEKS Spedition pentru transportul nostru de mărfuri generale, iar serviciul lor a fost excepțional. Livrări prompte, manipulare atentă a produselor noastre și o echipă profesionistă îi fac partenerul nostru preferat în logistica.',
   },
   {
     id: 2,
     src:img2,
-    name: 'James Anderson',
+    name: 'Alexei Romanov',
     title:'Client Mulțumit',
     service:'Transport Agabaritic',
-    quote: 'XYZ Logistics a avut un rol important în gestionarea nevoilor noastre de transport agabaritic. De la încărcarea precisă la livrările la timp, angajamentul lor față de eficiență și fiabilitate îi diferențiază în industria logistică.',
+    quote: 'LKW-ALEKS Spedition a avut un rol important în gestionarea nevoilor noastre de transport agabaritic. De la încărcarea precisă la livrările la timp, angajamentul lor față de eficiență și fiabilitate îi diferențiază în industria logistică.',
   },
   ,
   {
     id: 4,
     src:img4,
-    name: 'Emma Parker',
+    name: 'Olga Cojocaru',
     title:'Client Mulțumit',
     service:'Servicii Logistică',
-    quote: "Parteneriatul cu XYZ Logistics pentru servicii logistice cuprinzătoare a optimizat întregul nostru lanț de aprovizionare. Soluțiile lor de la depozitare la distribuție au optimizat operațiunile noastre și au îmbunătățit eficiența generală.",
+    quote: "Parteneriatul cu LKW-ALEKS Spedition pentru servicii logistice cuprinzătoare a optimizat întregul nostru lanț de aprovizionare. Soluțiile lor de la depozitare la distribuție au optimizat operațiunile noastre și au îmbunătățit eficiența generală.",
   },
   {
     id: 3,
     src:img3,
-    name: 'Ryan Mitchell',
+    name: 'Mark Aripov',
     title:'Client Mulțumit',
     service:'Transport Refrigerat',
     quote: 'Menținerea integrității produselor noastre sensibile la temperatură este crucială. Serviciul lor de transport refrigerat a livrat constant promisiunea de a păstra calitatea produselor noastre pe tot parcursul călătoriei.',
@@ -67,7 +72,8 @@ const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
           <div className='testimonialWrapper' key={testimonial.id}>
             <article className='testimonial' >
                 <div>
-                    <img src={testimonial.src}/>
+                <LazyLoadImage effect="blur" src={testimonial.src}></LazyLoadImage>
+
                     <span>
                         <p>{testimonial.title}</p>
                         <h4>{testimonial.name}</h4>

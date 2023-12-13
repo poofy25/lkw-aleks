@@ -86,13 +86,14 @@
 }
 .textSection > span {
 font-size: 1rem;
+margin-bottom: 1rem;
 font-weight: 700;
 display: flex;
 align-items: center;
 }
-.textSection > span > span {
-    font-size: 2rem;
-    color: #5080be;
+.textSection > span > img {
+    width: 2rem;
+    filter: invert(50%) sepia(23%) saturate(1069%) hue-rotate(174deg) brightness(90%) contrast(90%);
     margin-right: 1rem;
 }
 .textSection > a {

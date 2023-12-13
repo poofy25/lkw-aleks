@@ -48,13 +48,21 @@
     flex-direction: column;
     align-self: stretch;
 }
-.services > section > article > img {
+.services > section > article > span {
     width: 90%;
     aspect-ratio: 10/7;
     border-radius: 4px;
     z-index: 2;
     top: 0;
     left: 5%;
+}
+.services > section > article > span > img {
+    width: 100%;
+    aspect-ratio: 10/7;
+    border-radius: 4px;
+    z-index: 2;
+    top: 0;
+
     object-fit: cover;
 }
 .services > section > article > section {
