@@ -56,7 +56,7 @@ function NavBarMenu({status , setStatus , language , setLanguage}) {
             <span><img src={call}/><a href='tel:+37369150150'>+373 69 150 150</a></span>
             <span><img src={call}/><a href='tel:+40758074350'>+40 758 074 350</a></span>
             <span><img src={email}/><a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a></span>
-            <div className={styles.social}><img src={facebook}/></div>
+            {/* <div className={styles.social}><img src={facebook}/></div> */}
 
             </section>
 

@@ -51,7 +51,9 @@
     .gradient {
         background: linear-gradient(90deg, #050839 0%, #050839af 100%);
     }
-
+    .faq {
+        min-height: 100vh;
+    }
     .faq > h2 {
         font-size: 2rem;
     }
