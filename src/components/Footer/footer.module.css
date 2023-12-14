@@ -179,7 +179,9 @@ footer{
     }
     .navigation > a {
         width: 50%;
-        text-align: center;
+        padding-left: 10%;
+        box-sizing: border-box;
+        text-align: start;
     }
     .navFirstA{
         margin-top: 1rem !important;
@@ -198,7 +200,7 @@ footer{
         width: 100%;
     }
     .contactWrapper > h4 {
-        text-align: center;
+        text-align: start;
         margin-top: 1rem;
     }
     .credits > p:last-child{

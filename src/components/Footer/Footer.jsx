@@ -34,7 +34,7 @@ function Footer() {
                 <article className={styles.contact}>
                     <h3>Contactează-ne</h3>
                     <div className={styles.contactWrapper}>
-                        <h4>Moldova</h4>
+                        <h4>Republica Moldova</h4>
                         <div>
                             <img src={location}/>
                             <span>
