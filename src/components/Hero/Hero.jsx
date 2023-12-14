@@ -6,7 +6,7 @@ import arrowright from '/src/assets/svg/arrowright.svg'
 function Hero() {
     return ( 
         <section id='acasa' className={styles.hero}>
-            <img alt='Hero Section Background Image' src={heroIMG}/>
+            <img fetchpriority="high" alt='Hero Section Background Image' src={heroIMG}/>
             <span className={styles.gradient}></span>
             <div>
                 <p>Transport internațional, sigur și eficient </p>
