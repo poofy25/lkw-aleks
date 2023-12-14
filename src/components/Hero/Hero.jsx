@@ -1,6 +1,6 @@
 import styles from './hero.module.css'
 
-import heroIMG from '/src/assets/img/hero.png'
+import heroIMG from '/src/assets/img/hero.webp'
 import arrowright from '/src/assets/svg/arrowright.svg'
 
 function Hero() {
