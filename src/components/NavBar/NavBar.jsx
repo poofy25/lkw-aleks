@@ -26,7 +26,7 @@ function NavBar({width , language , setLanguage}) {
 
     const [menuActive , setMenuActive] = useState(false)
     const langJson = languagesJson[language].navbar
-    console.log(langJson)
+    console.log(languagesJson[language])
 
     const menuBtnHandler = ()=>{
         setMenuActive(!menuActive)
@@ -74,7 +74,7 @@ function NavBar({width , language , setLanguage}) {
                     <a href='tel:++40 758 074 350'><img alt='Call Icon' src={call}/>+40 758 074 350</a>
                 </span>
                 {/* <a className={styles.iconLink}><img/></a> */}
-                <a href='#contact' className={styles.contactsBtn}>{'Contacte >'}</a>
+                <a href='#contact' className={styles.contactsBtn}>{langJson.navigation.contact}</a>
             </section>
             <section className={styles.navigationBar}>
                 <a href='#acasa'>{langJson.navigation.home}</a>
@@ -100,7 +100,7 @@ function NavBar({width , language , setLanguage}) {
                 }
                 
             </section>
-            <NavBarMenu  status={menuActive} setStatus={setMenuActive} language={language} setLanguage={setLanguage}/>
+            <NavBarMenu langJson={langJson}  status={menuActive} setStatus={setMenuActive} language={language} setLanguage={setLanguage}/>
         </nav>
      );
 }

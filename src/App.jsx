@@ -32,16 +32,16 @@ function App() {
   return (
     <>
     <NavBar width={width} language={language} setLanguage={setLanguage}/>
-    <Hero/>
-    <About/>
-    <Stats/>
-    <Services/>
-    <WhyUs/>
-    <Certifications></Certifications>
-    <Testimonials/>
-    <FAQ/>
-    <Contact/>
-    <Footer/>
+    <Hero language={language}/>
+    <About language={language}/>
+    <Stats language={language}/>
+    <Services language={language}/>
+    <WhyUs language={language}/>
+    <Certifications language={language}/>
+    <Testimonials language={language}/>
+    <FAQ language={language}/>
+    <Contact language={language}/>
+    <Footer language={language}/>
     </>
   )
 }

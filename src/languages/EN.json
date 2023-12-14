@@ -1,13 +1,188 @@
 {
-    "navbar":{
-        "contacts":{},
-        "navigation":{
-            "home":"Home",
-            "aboutus":"About Us",
-            "services":"Services",
-            "whyus":"Why Us",
-            "certificates":"Certificates",
-            "contact":"Contact"
+    "navbar": {
+        "contacts": {},
+        "navigation": {
+            "home": "Home",
+            "aboutus": "About Us",
+            "services": "Services",
+            "whyus": "Why Us",
+            "certificates": "Certificates",
+            "testimonials": "Testimonials",
+            "faq": "FAQ",
+            "contact": "Contact"
+        }
+    },
+    "hero": {
+        "subtitle": "International, Safe, and Efficient Transport",
+        "title": "Optimal Solutions to Any Destination",
+        "text": {
+            "1": "With over two decades of experience in international freight transport,",
+            "2": "LKW-ALEKS Spedition is your reliable solution for efficient and safe transport.",
+            "3": "Discover our top-notch services and the strong partnerships we build with our clients!"
+        },
+        "btntext": "Get Customized Offer"
+    },
+    "aboutus": {
+        "subtitle": "About Us",
+        "title": "A History of Performance and Success",
+        "imgtext": "years of experience",
+        "text": "Founded in 2002, LKW-ALEKS Spedition is a company dedicated to providing a wide range of transport and logistics services to meet the diverse and demanding needs of the business environment. With over 20 years of experience in an ever-changing business environment, we have always aimed to respond promptly to our clients, ensuring they benefit from flexibility, professionalism, and the quality of services.",
+        "checkboxtext": {
+            "1": "Reliable and Flexible Logistic Solutions",
+            "2": "Dedicated Team of Professionals",
+            "3": "Punctuality and Competitive Costs"
+        },
+        "btntext": "Contact Us"
+    },
+    "stats": {
+        "1": "Orders Fulfilled",
+        "2": "Destinations",
+        "3": "Years of Experience",
+        "4": "Satisfied Clients"
+    },
+    "services": {
+        "subtitle": "Our Services",
+        "title": "Customized Solutions for Any Request",
+        "text": "LKW-ALEKS Spedition offers a diverse range of integrated storage, distribution, and transport solutions worldwide, quickly and affordably!",
+        "service": {
+            "1": {
+                "title": "International Road Transport",
+                "text": "We provide road transport services in groupage and exclusive mode, covering a wide range of weights from 10 kg to 23,000 kg to numerous destinations in Europe and Asia: Portugal, Spain, France, England, Belgium, Netherlands, Germany, Denmark, Sweden, Norway, Finland, Lithuania, Latvia, Estonia, Italy, Switzerland, Austria, Czech Republic, Slovakia, Poland, Hungary, Bulgaria, Slovenia, Croatia, Serbia, Turkey, Ukraine, Russia, Romania, Kazakhstan, Turkmenistan, Kyrgyzstan, Armenia, Georgia, and more."
+            },
+            "2": {
+                "title": "Transport of General Goods",
+                "text": "Transport of general goods is a versatile and flexible solution for goods and products that do not require special handling or storage conditions. General goods can be transported using a variety of standard means of transport, such as curtain-side trucks, vans, trucks, vans, or dump trucks. This diversity of vehicles allows us to choose the most suitable option based on the specific needs of each client."
+            },
+            "3": {
+                "title": "Transport of Dangerous Goods (ADR)",
+                "text": "Dangerous goods, according to the ADR Convention, include substances and objects that, due to their physical, chemical, or biological characteristics, pose significant risks to health, safety, and the environment. The transport of dangerous goods requires special attention and specialized approaches. We understand the importance of ensuring a safe transport process, so each shipment is managed with responsibility and professionalism."
+            },
+            "4": {
+                "title": "Bulk Transport",
+                "text": "Bulk transport is the ideal solution when the cargo exceeds the standard dimensions or weight limits associated with ordinary road transport. Regardless of the type of cargo, our team of specialists identifies the right route and chooses the ideal truck to ensure the success of each transport."
+            },
+            "5": {
+                "title": "Refrigerated Transport",
+                "text": "We offer complete refrigerated transport services for frozen and perishable goods, ensuring controlled temperatures between -18°C and 20°C. Equipped with state-of-the-art technology, our trucks are equipped with advanced temperature control systems, guaranteeing the integrity of products from departure to destination."
+            },
+            "6": {
+                "title": "Logistics Services",
+                "text": "We offer not only transport services but also a complete range of auxiliary services to facilitate and optimize the entire logistics chain. These include storage, internal or intra-community distribution of goods, and the mediation of customs formalities. With a focus on quality and efficiency, our priority is to provide complete and personalized solutions for every aspect of logistics."
+            }
+        }
+    },
+    "whyus": {
+        "subtitle": "WHY US?",
+        "title": "Factors That Make a Difference",
+        "article": {
+            "1": {
+                "title": "Integrated Logistics",
+                "text": "We offer complete logistics solutions, efficiently managing all stages of the transport process. From storage to distribution and real-time tracking, we provide transparency and total control."
+            },
+            "2": {
+                "title": "Punctuality",
+                "text": "In the business world, every second counts. We place special emphasis on punctuality, ensuring that your goods reach their destination on time, every time."
+            },
+            "3": {
+                "title": "Continuous Support",
+                "text": "We provide personalized support to ensure a seamless transport experience and efficient communication at every stage."
+            },
+            "4": {
+                "title": "Modern Fleet",
+                "text": "Benefit from our services with a fleet equipped with state-of-the-art technology to ensure the safety and efficiency of transport."
+            },
+            "5": {
+                "title": "Customized Solutions",
+                "text": "We adapt to your specific needs, offering personalized and flexible solutions to meet your transport requirements."
+            },
+            "6": {
+                "title": "Experience and Professionalism",
+                "text": "With a presence of over two decades in the industry, we have the expertise to successfully manage any type of international transport."
+            }
+        }
+    },
+    "certificates": {
+        "subtitle": "Certificates",
+        "title": "Licenses and Certificates",
+        "text": "We pride ourselves on our commitment to the highest standards of quality and legal compliance. Below, we present our certificates and licenses that attest to our professionalism and dedication to providing international transport and logistics services."
+    },
+    "testimonials": {
+        "subtitle": "Testimonials",
+        "title": "What Our Clients Say",
+        "article": {
+            "1": {
+                "status": "Satisfied Client",
+                "service": "Transport of General Goods",
+                "text": "We turned to LKW-ALEKS Spedition for our general goods transport, and their service was exceptional. Prompt deliveries, careful handling of our products, and a professional team make them our preferred logistics partner."
+            },
+            "2": {
+                "status": "Satisfied Client",
+                "service": "Bulk Transport",
+                "text": "LKW-ALEKS Spedition played a significant role in managing our bulk transport needs. From precise loading to on-time deliveries, their commitment to efficiency and reliability sets them apart in the logistics industry."
+            },
+            "3": {
+                "status": "Satisfied Client",
+                "service": "Logistics Services",
+                "text": "Partnership with LKW-ALEKS Spedition for comprehensive logistics services has optimized our entire supply chain. Their solutions from storage to distribution have streamlined our operations and improved overall efficiency."
+            },
+            "4": {
+                "status": "Satisfied Client",
+                "service": "Refrigerated Transport",
+                "text": "Maintaining the integrity of our temperature-sensitive products is crucial. Their refrigerated transport service has consistently delivered on the promise to preserve the quality of our products throughout the journey."
+            }
+        }
+    },
+    "faq": {
+        "subtitle": "FAQ",
+        "title": "Frequently Asked Questions",
+        "questions": {
+            "1": {
+                "question": "What destinations are covered by LKW-ALEKS Spedition services?",
+                "answer": "We offer competitive freight transport rates with full trucks for both export and import to and from countries such as Portugal, Spain, France, England, Belgium, Netherlands, Germany, Denmark, Sweden, Norway, Finland, Lithuania, Latvia, Estonia, Italy, Switzerland, Austria, Czech Republic, Slovakia, Poland, Hungary, Bulgaria, Slovenia, Croatia, Serbia, Turkey, Ukraine, Russia, Romania, Kazakhstan, Turkmenistan, Kyrgyzstan, Armenia, Georgia, and more."
+            },
+            "2": {
+                "question": "How can I get a customized offer?",
+                "answer": "To get a customized offer, contact us by phone at +373 69 150 150 or +373 69 150 151 or by email at info@lkw-aleks.com, and our team will provide personalized consultancy, identifying the most suitable solutions for your requirements."
+            },
+            "3": {
+                "question": "What international conventions does LKW-ALEKS Spedition use for executing transports?",
+                "answer": "We execute transports based on the international conventions CMR (Convention on the Contract for the International Carriage of Goods by Road) and TIR (Customs Convention on the International Transport of Goods under Cover of TIR Carnets)."
+            },
+            "4": {
+                "question": "What are the advantages of long-term collaboration with LKW-ALEKS Spedition?",
+                "answer": "Long-term collaboration with us brings benefits such as competitive rates, priority in offered services, access to exclusive facilities, and specialized consultancy for continuous optimization of the logistics chain."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "moldova": "Moldova",
+        "romania": "Romania"
+    },
+    "footer": {
+        "company": {
+            "text": "We offer international transport and groupage and exclusive expedition services (from 10kg to 23,000kg). Contact us now to find out how we can support your business.",
+            "worktitle": "WORKING HOURS",
+            "worktime": "Monday–Friday 08:30–17:30"
+        },
+        "navigation": {
+            "title": "Navigate",
+            "home": "Home",
+            "aboutus": "About Us",
+            "services": "Services",
+            "whyus": "Why Us",
+            "certificates": "Certificates",
+            "testimonials": "Testimonials",
+            "faq": "FAQ",
+            "contact": "Contact"
+        },
+        "contact": {
+            "title": "Contact Us",
+            "moldova": "Republic of Moldova",
+            "romania": "Romania",
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email"
         }
     }
 }

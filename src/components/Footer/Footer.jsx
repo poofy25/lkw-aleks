@@ -6,46 +6,60 @@ import location from '/src/assets/svg/location.svg'
 import email from '/src/assets/svg/email.svg'
 import call from '/src/assets/svg/call.svg'
 
-function Footer() {
+import ROJSON from '/src/languages/RO.json'
+import RUJSON from '/src/languages/RU.json'
+import ENJSON from '/src/languages/EN.json'
+
+const languagesJson = {
+  RO:ROJSON,
+  RU:RUJSON,
+  EN:ENJSON
+}
+
+function Footer({language}) {
+
+    const langJson = languagesJson[language].footer
+
+
     return ( 
         <footer>
 
             <section className={styles.content}>
                 <article className={styles.company}>
                     <img alt='Logo' src={logo}/>
-                    <p>Oferim transport internațional și expediție în regim de grupaj și exclusiv (de la 10kg până la 23000kg). Contactează-ne acum pentru a afla cum putem să îți susținem afacerea.</p>
-                    <h4>PROGRAM DE LUCRU</h4>
-                    <p>{'Luni–Vineri 08:30–17:30'}</p>
+                    <p>{langJson.company.text}</p>
+                    <h4>{langJson.company.worktitle}</h4>
+                    <p>{langJson.company.worktime}</p>
                 </article>
               
 
                 <article className={styles.navigation}>
-                    <h3>Navighează</h3>
-                    <a href='#acasa'  className={styles.navFirstA}>Acasă</a>
-                    <a href='#desprenoi'>Despre Noi</a>
-                    <a href='#servicii'>Servicii</a>
-                    <a href='#decenoi'>De Ce Noi</a>
-                    <a href='#certificate'>Certificate</a>
-                    <a href='#recenzii'>Recenzii</a>
-                    <a href='#faq'>FAQ</a>
-                    <a href='#contact'>Contact</a>
+                    <h3>{langJson.navigation.title}</h3>
+                    <a href='#acasa'  className={styles.navFirstA}>{langJson.navigation.home}</a>
+                    <a href='#desprenoi'>{langJson.navigation.aboutus}</a>
+                    <a href='#servicii'>{langJson.navigation.services}</a>
+                    <a href='#decenoi'>{langJson.navigation.whyus}</a>
+                    <a href='#certificate'>{langJson.navigation.certificates}</a>
+                    <a href='#recenzii'>{langJson.navigation.testimonials}</a>
+                    <a href='#faq'>{langJson.navigation.faq}</a>
+                    <a href='#contact'>{langJson.navigation.contact}</a>
                 </article>
 
                 <article className={styles.contact}>
-                    <h3>Contactează-ne</h3>
+                    <h3>{langJson.contact.title}</h3>
                     <div className={styles.contactWrapper}>
-                        <h4>Republica Moldova</h4>
+                        <h4>{langJson.contact.moldova}</h4>
                         <div>
                             <img alt='Location Icon' src={location}/>
                             <span>
-                                <p>Adresa</p>
+                                <p>{langJson.contact.adress}</p>
                                 <a href='#contact'>bd. Traian 22, Chișinău</a>
                             </span>
                         </div>
                         <div>
                             <img alt='Call Icon' src={call}/>
                             <span>
-                                <p>Telefon</p>
+                                <p>{langJson.contact.phone}</p>
                                 <a href='tel:+373 69 150 151'>+373 69 150 150</a>
                                 <a href='tel:+373 69 150 151'>+373 69 150 151</a>
                                 <a href='tel:+373 69 102 681'>+373 69 102 681</a>
@@ -55,31 +69,31 @@ function Footer() {
                         <div>
                         <img alt='Email Icon' src={email}/>
                         <span>
-                            <p>Email</p>
+                            <p>{langJson.contact.email}</p>
                             <a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a>
                         </span>
                     </div>
                     </div>
                     <div className={styles.contactWrapper}>
-                        <h4>România</h4>
+                        <h4>{langJson.contact.romania}</h4>
                         <div>
                             <img  alt='Location Icon'src={location}/>
                             <span>
-                                <p>Adresa</p>
+                                <p>{langJson.contact.adress}</p>
                                 <a href='#contact'>bd. Țuțora 9B, Iași</a>
                             </span>
                         </div>
                         <div>
                             <img alt='Call Icon' src={call}/>
                             <span>
-                                <p>Telefon</p>
+                                <p>{langJson.contact.phone}</p>
                                 <a href='tel:+40 758 074 350 '>+40 758 074 350 </a>
                             </span>
                         </div>
                         <div>
                             <img alt='Email Icon' src={email}/>
                             <span>
-                                <p>Email</p>
+                                <p>{langJson.contact.email}</p>
                                 <a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a>
                             </span>
                         </div>

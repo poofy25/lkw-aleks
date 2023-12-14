@@ -11,7 +11,7 @@ import roFlag from '/src/assets/svg/romania.svg'
 import ruFlag from '/src/assets/svg/ru.svg'
 import enFlag from '/src/assets/svg/gb.svg'
 
-function NavBarMenu({status , setStatus , language , setLanguage}) {
+function NavBarMenu({status , setStatus , language , setLanguage , langJson}) {
 
 
     useEffect(()=>{
@@ -38,14 +38,14 @@ function NavBarMenu({status , setStatus , language , setLanguage}) {
         <section onClick={menuClick} className={styles.menu}>
 
             <section className={styles.menuContent}>
-            <a onClick={()=>{setStatus(!status)}} href='#acasa'>Acasă</a>
-            <a onClick={()=>{setStatus(!status)}} href='#desprenoi'>Despre Noi</a>
-            <a onClick={()=>{setStatus(!status)}} href='#servicii'>Servicii</a>
-            <a onClick={()=>{setStatus(!status)}} href='#decenoi'>De Ce Noi</a>
-            <a onClick={()=>{setStatus(!status)}} href='#certificate'>Certificate</a>
-            <a onClick={()=>{setStatus(!status)}} href='#recenzii'>Recenzii</a>
-            <a onClick={()=>{setStatus(!status)}} href='#faq'>Intrebari Frecvente</a>
-            <a onClick={()=>{setStatus(!status)}} className={styles.lasta} href='#contact'>Contact</a>
+            <a onClick={()=>{setStatus(!status)}} href='#acasa'>{langJson.navigation.home}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#desprenoi'>{langJson.navigation.aboutus}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#servicii'>{langJson.navigation.services}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#decenoi'>{langJson.navigation.whyus}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#certificate'>{langJson.navigation.certificates}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#recenzii'>{langJson.navigation.testimonials}</a>
+            <a onClick={()=>{setStatus(!status)}} href='#faq'>{langJson.navigation.faq}</a>
+            <a onClick={()=>{setStatus(!status)}} className={styles.lasta} href='#contact'>{langJson.navigation.contact}</a>
 
             <section className={styles.languages}>
                 <button onClick={()=>{setLanguage('RO')}} className={language==='RO' && styles.active}><img alt="Romanian Flag" src={roFlag}/>RO</button>

@@ -49,7 +49,7 @@ const testimonialsData = [
   }
 ];
 
-const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
+const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev , langJson }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -68,6 +68,43 @@ const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
       },
     ]
   };
+
+
+  const testimonialsData = [
+    {
+      id: 1,
+      src:img1,
+      name: 'Radu Popescu',
+      title:langJson.article['1'].status,
+      service:langJson.article['1'].service,
+      quote:langJson.article['1'].text,
+    },
+    {
+      id: 2,
+      src:img2,
+      name: 'Alexei Romanov',
+      title:langJson.article['2'].status,
+      service:langJson.article['2'].service,
+      quote:langJson.article['2'].text,
+    },
+    ,
+    {
+      id: 4,
+      src:img4,
+      name: 'Olga Cojocaru',
+      title:langJson.article['3'].status,
+      service:langJson.article['3'].service,
+      quote:langJson.article['3'].text,
+    },
+    {
+      id: 3,
+      src:img3,
+      name: 'Mark Aripov',
+      title:langJson.article['4'].status,
+      service:langJson.article['4'].service,
+      quote:langJson.article['4'].text,
+    }
+  ];
 
  
 

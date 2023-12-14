@@ -5,9 +5,23 @@ import email from '/src/assets/svg/email.svg'
 import call from '/src/assets/svg/call.svg'
 
 import { useState } from 'react'
-import { useEffect } from 'react'
 
-function Contact() {
+
+import ROJSON from '/src/languages/RO.json'
+import RUJSON from '/src/languages/RU.json'
+import ENJSON from '/src/languages/EN.json'
+
+const languagesJson = {
+  RO:ROJSON,
+  RU:RUJSON,
+  EN:ENJSON
+}
+
+
+function Contact({language}) {
+
+    const langJson = languagesJson[language].contact
+
     //true == Moldova , false == Romania
     const [contact , setContact] = useState(true)
 
@@ -17,10 +31,10 @@ function Contact() {
             <div id='contact' className={styles.anchor}></div>
            
         <section>
-            <h2>Contactează-ne</h2>
+            <h2>{langJson.title}</h2>
             <span>
-                <button aria-label='Moldova' className={contact && styles.active} onClick={()=>{setContact(true)}}>Moldova</button>
-                <button aria-label='Romania' className={!contact && styles.active} onClick={()=>{setContact(false)}}>România</button>
+                <button aria-label='Moldova' className={contact && styles.active} onClick={()=>{setContact(true)}}>{langJson.moldova}</button>
+                <button aria-label='Romania' className={!contact && styles.active} onClick={()=>{setContact(false)}}>{langJson.romania}</button>
             </span>
             {contact ? 
             <div>

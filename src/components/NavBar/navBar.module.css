@@ -103,6 +103,11 @@ nav.small > .logoBar::before{
     justify-content: center;
     position: relative;
     cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+
+    color: #f7f7f7;
 }
 .contactsBtn::before{
     position: absolute;
@@ -115,12 +120,15 @@ nav.small > .logoBar::before{
     color: #f7f7f7;
     font-weight: bold;
     font-size: 1rem;
-    content: "Contact";
+    content: "";
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.25s ease-in-out;
-    z-index: 1;
+    z-index: -1;
+}
+.contactsBtn:hover{
+    color: #4F7FBE;
 }
 .contactsBtn:hover::before{
     background-color: #f7f7f7;

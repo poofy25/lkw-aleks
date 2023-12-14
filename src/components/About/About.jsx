@@ -7,21 +7,35 @@ import checkbox from '/src/assets/svg/checkbox.svg'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-function About() {
+
+import ROJSON from '/src/languages/RO.json'
+import RUJSON from '/src/languages/RU.json'
+import ENJSON from '/src/languages/EN.json'
+
+const languagesJson = {
+  RO:ROJSON,
+  RU:RUJSON,
+  EN:ENJSON
+}
+
+function About({language}) {
+
+    const langJson = languagesJson[language].aboutus
+
     return ( 
         <section id='desprenoi' className={styles.about}>
                 <section className={styles.imgSection}>
                     <LazyLoadImage effect='blur' alt='Background Image for About Section' src={aboutIMG}/>
-                    <div><h3>20+</h3><p>ani de <br/> experienta</p></div>
+                    <div><h3>20+</h3><p>{langJson.imgtext}</p></div>
                 </section>
                 <section className={styles.textSection}>
-                    <div><p>Despre Noi</p></div>
-                    <h2>O istorie de performanță și succes</h2>
-                    <p>Fondată în 2002, LKW-ALEKS Spedition este o companie dedicată oferirii unui spectru larg de servicii de transport şi logistică, pentru a răspunde la nevoile diverse şi exigente ale mediului de afaceri.   Cu o experienţă de peste 20 ani în domeniu şi într-un mediu de afaceri aflat într-o permanentă schimbare, am urmărit întotdeauna să răspundem cu promptitudine clienţilor, astfel încît aceştia să beneficieze de flexibilitate, profesionalism şi calitatea serviciilor. </p>
-                    <span><img alt='Checkbox Icon' src={checkbox}/>Soluții logistice fiabile și flexibile</span>
-                    <span><img alt='Checkbox Icon' src={checkbox}/>Echipă de profesioniști dedicată</span>
-                    <span><img alt='Checkbox Icon' src={checkbox}/>Punctualitate și costuri competitive</span>
-                    <a href='#contact'>Contactează-ne<img alt='Arrow Right Icon' src={arrowright}/></a>
+                    <div><p>{langJson.subtitle}</p></div>
+                    <h2>{langJson.title}</h2>
+                    <p>{langJson.text}</p>
+                    <span><img alt='Checkbox Icon' src={checkbox}/>{langJson.checkboxtext['1']}</span>
+                    <span><img alt='Checkbox Icon' src={checkbox}/>{langJson.checkboxtext['2']}</span>
+                    <span><img alt='Checkbox Icon' src={checkbox}/>{langJson.checkboxtext['3']}</span>
+                    <a href='#contact'>{langJson.btntext}<img alt='Arrow Right Icon' src={arrowright}/></a>
                 </section>
         </section>
      );

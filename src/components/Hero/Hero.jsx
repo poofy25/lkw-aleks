@@ -3,23 +3,38 @@ import styles from './hero.module.css'
 import heroIMG from '/src/assets/img/hero.webp'
 import arrowright from '/src/assets/svg/arrowright.svg'
 
-function Hero() {
+import ROJSON from '/src/languages/RO.json'
+import RUJSON from '/src/languages/RU.json'
+import ENJSON from '/src/languages/EN.json'
+
+const languagesJson = {
+  RO:ROJSON,
+  RU:RUJSON,
+  EN:ENJSON
+}
+
+
+function Hero({language}) {
+
+    const langJson = languagesJson[language].hero
+
+
     return ( 
         <section id='acasa' className={styles.hero}>
             <img fetchpriority="high" alt='Hero Section Background Image' src={heroIMG}/>
             <span className={styles.gradient}></span>
             <div>
-                <p>Transport internațional, sigur și eficient </p>
+                <p>{langJson.subtitle} </p>
             </div>
-            <h1>Soluții optime către orice destinație</h1>
+            <h1>{langJson.title}</h1>
             <p>
-            Cu o experiență de peste două decenii în domeniul transportului internațional de mărfuri,
+            {langJson.text['1']}
             <br/>
-            LKW-ALEKS Spedition reprezintă soluția ta de încredere pentru transport eficient și sigur.
+            {langJson.text['2']}
             <br/>
-            Descoperă serviciile noastre de top și parteneriatele solide pe care le construim cu clienții noștri!
+            {langJson.text['3']}
             </p>
-            <a href='#contact'>Obține oferta personalizată <img alt='Arrow Right Icon' src={arrowright}/></a>
+            <a href='#contact'>{langJson.btntext} <img alt='Arrow Right Icon' src={arrowright}/></a>
         </section>
      );
 }

@@ -6,27 +6,38 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import faqImg from '/src/assets/img/faq.png'
 
-function FAQ() {
+import ROJSON from '/src/languages/RO.json'
+import RUJSON from '/src/languages/RU.json'
+import ENJSON from '/src/languages/EN.json'
+
+const languagesJson = {
+  RO:ROJSON,
+  RU:RUJSON,
+  EN:ENJSON
+}
 
 
+function FAQ({language}) {
+
+    const langJson = languagesJson[language].faq
 
     const data = {
         rows: [
             {
-                title: <h4 className='faqh4'>Care sunt destinațiile acoperite de serviciile LKW-ALEKS Spedition?</h4>,
-                content: <p className='faqp'>Oferim tarife competitive de transport marfă cu camioane complete atît pentru export, cît şi pentru import, atît în, cît şi din ţări precum Portugalia, Spania, Franţa, Anglia, Belgia, Olanda, Germania, Danemarca, Suedia, Norvegia, Finlanda, Lituania, Letonia, Estonia, Italia, Elveţia, Austria, Cehia, Slovacia, Polonia, Ungaria, Bulgaria, Slovenia, Croaţia, Serbia, Turcia, Ucraina, Rusia, Romania, Kazahstan, Turkmenistan, Kirghizstan, Armenia, Georgia, ș.a.</p>,
+                title: <h4 className='faqh4'>{langJson.questions['1'].question}</h4>,
+                content: <p className='faqp'>{langJson.questions['1'].answer}</p>,
             },
             {
-                title: <h4 className='faqh4'>Cum pot obține o ofertă personalizată?</h4>,
-                content:<p className='faqp'>Pentru a obține o ofertă personalizată, contactați-ne prin telefon la +373 69 150 150 sau +373 69 150 151 sau prin e-mail la info@lkw-aleks.com, iar echipa noastră vă va oferi consultanță personalizată, identificând cele mai potrivite soluții pentru cerințele dumneavoastră.</p>
+                title: <h4 className='faqh4'>{langJson.questions['2'].question}</h4>,
+                content: <p className='faqp'>{langJson.questions['2'].answer}</p>,
             },
             {
-                title: <h4 className='faqh4'>Ce baze convenții internaționale folosește LKW-ALEKS Spedition pentru executarea transporturilor?</h4>,
-                content: <p className='faqp'>Executăm transporturile în baza convențiilor internaționale CMR (Convenția privind Contractul de Transport Rutier Internațional de Mărfuri) și TIR (Convenţia vamală relativă la transportul internaţional de mărfuri sub acoperirea carnetului TIR).</p>,
+                title: <h4 className='faqh4'>{langJson.questions['3'].question}</h4>,
+                content: <p className='faqp'>{langJson.questions['3'].answer}</p>,
             },
             {
-                title: <h4 className='faqh4'>Care sunt avantajele colaborării pe termen lung cu LKW-ALEKS Spedition?</h4>,
-                content: <p className='faqp'>Colaborarea pe termen lung cu noi aduce beneficii precum tarife competitive, prioritate în serviciile oferite, acces la facilități exclusive și consultanță specializată pentru optimizarea continuă a lanțului logistic.</p>,
+                title: <h4 className='faqh4'>{langJson.questions['4'].question}</h4>,
+                content: <p className='faqp'>{langJson.questions['4'].answer}</p>,
             },
         ],
     };
@@ -64,8 +75,8 @@ function FAQ() {
         <section id='faq' className={styles.faq}>
             <LazyLoadImage effect="blur" alt='FAQ Background image' src={faqImg}></LazyLoadImage>
             <span className={styles.gradient}></span>
-            <div className={styles.div}><p>FAQ</p></div>
-            <h2>Întrebari Frecvente</h2>
+            <div className={styles.div}><p>{langJson.subtitle}</p></div>
+            <h2>{langJson.title}</h2>
             <div className={styles.faqWrapper}>
                 <Faq
                     data={data}

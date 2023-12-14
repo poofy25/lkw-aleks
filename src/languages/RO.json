@@ -8,8 +8,183 @@
             "whyus":"De Ce Noi",
             "certificates":"Certificate",
             "testimonials":"Recenzii",
-            "faq":"FAQ",
+            "faq":"ÎF",
             "contact":"Contact"
         }
+    },
+    "hero":{
+        "subtitle":"Transport internațional, sigur și eficient",
+        "title":"Soluții optime către orice destinație",
+        "text":{
+            "1":"Cu o experiență de peste două decenii în domeniul transportului internațional de mărfuri,",
+            "2":"LKW-ALEKS Spedition reprezintă soluția ta de încredere pentru transport eficient și sigur.",
+            "3":"Descoperă serviciile noastre de top și parteneriatele solide pe care le construim cu clienții noștri!"
+        },
+        "btntext":"Obține oferta personalizată"
+    },
+    "aboutus":{
+        "subtitle":"Despre Noi",
+        "title":"O istorie de performanță și succes",
+        "imgtext":"ani de experienta",
+        "text":"Fondată în 2002, LKW-ALEKS Spedition este o companie dedicată oferirii unui spectru larg de servicii de transport şi logistică, pentru a răspunde la nevoile diverse şi exigente ale mediului de afaceri. Cu o experienţă de peste 20 ani în domeniu şi într-un mediu de afaceri aflat într-o permanentă schimbare, am urmărit întotdeauna să răspundem cu promptitudine clienţilor, astfel încît aceştia să beneficieze de flexibilitate, profesionalism şi calitatea serviciilor.",
+        "checkboxtext":{
+            "1":"Soluții logistice fiabile și flexibile",
+            "2":"Echipă de profesioniști dedicată",
+            "3":"Punctualitate și costuri competitive"
+        },
+        "btntext":"Contactează-ne"
+    },
+    "stats":{
+        "1":"Comenzi Efectuate",
+        "2":"Destinații",
+        "3":"Ani De Experiență",
+        "4":"Clienți Mulțumiți"
+    },
+    "services":{
+        "subtitle":"Serviciile Noastre",
+        "title":"Soluții personalizate pentru orice solicitare",
+        "text":"LKW-ALEKS Spedition oferă o gamă variată de soluții integrate de depozitare, distribuție si transport, în toate regiunile lumii, rapid și accesibil!",
+        "service":{
+            "1":{
+                "title":"Transport Rutier Internațional",
+                "text":"Oferim servicii de transport rutier în regim de grupaj și exclusiv, acoperind o gamă variată de greutăți, de la 10 kg până la 23.000 kg, către numeroase destinații din Europa și Asia: Portugalia, Spania, Franța, Anglia, Belgia, Olanda, Germania, Danemarca, Suedia, Norvegia, Finlanda, Lituania, Letonia, Estonia, Italia, Elveția, Austria, Cehia, Slovacia, Polonia, Ungaria, Bulgaria, Slovenia, Croația, Serbia, Turcia, Ucraina, Rusia, România, Kazakhstan, Turkmenistan, Kirghizstan, Armenia și Georgia ș.a."
+            },
+            "2":{
+                "title":"Transport de Mărfuri Generale",
+                "text":"Transportul de mărfuri generale reprezintă o soluție versatilă și flexibilă pentru bunurile și produsele care nu necesită condiții speciale de manipulare sau depozitare. Mărfurile generale pot fi transportate folosind o varietate de mijloace de transport standard, cum ar fi camioane cu semiremorcă prelată, dube, autocamioane, camionete sau autobasculante. Această diversitate de vehicule ne permite să alegem cea mai potrivită opțiune în funcție de nevoile specifice ale fiecărui client."
+            },
+            "3":{
+                "title":"Transport de Mărfuri Periculoase (ADR)",
+                "text":"Mărfurile periculoase, conform Convenției ADR, includ substanțe și obiecte care, din cauza caracteristicilor lor fizice, chimice sau biologice, prezintă riscuri semnificative pentru sănătate, siguranță și mediu. Transportul mărfurilor periculoase necesită o atenție deosebită și abordări specializate. Înțelegem importanța asigurării unui proces de transport sigur, astfel încât fiecare expediție să fie gestionată cu responsabilitate și profesionalism."
+            },
+            "4":{
+                "title":"Transport Agabaritic",
+                "text":"Transportul agabaritic reprezintă soluția ideală atunci când marfa depășește limitele standard de dimensiuni sau greutate aferente transportului rutier obișnuit. Indiferent de tipul de încărcătură, echipa noastră de specialiști identifică traseul potrivit și alege camionul ideal pentru a asigura că fiecare transport se desfășoară cu succes."
+            },
+            "5":{
+                "title":"Transport Frigorific",
+                "text":"Oferim servicii complete de transport frigorific pentru mărfuri congelate și perisabile, asigurând temperaturi controlate între -18°C și 20°C. Echipate cu tehnologie de vârf, camioanele noastre sunt dotate cu sisteme avansate de control al temperaturii, garantând păstrarea integrității produselor de la punctul de plecare până la destinație."
+            },
+            "6":{
+                "title":"Servicii de logistică",
+                "text":"Oferim nu doar servicii de transport, ci și o gamă completă de servicii auxiliare pentru a vă facilita și optimiza întregul lanț logistic. Printre acestea se numără depozitarea, distribuția internă sau intracomunitară a mărfurilor și intermedierea formalităților vamale. Cu accent pe calitate și eficiență, este prioritatea noastră să oferim soluții complete și personalizate pentru fiecare aspect al logisticii."
+            }
+        }
+    },
+    "whyus":{
+        "subtitle":"DE CE NOI?",
+        "title":"Motive care fac diferența",
+        "article":{
+            "1":{
+                "title":"Logistică integrată",
+                "text":"Vă oferim soluții complete de logistică, gestionând eficient toate etapele procesului de transport. De la depozitare până la distribuție și urmărire în timp real, vă oferim transparență și control total."
+            },
+            "2":{
+                "title":"Punctualitate",
+                "text":"În lumea afacerilor, fiecare secundă contează. Punem un accent deosebit pe punctualitate, asigurându-ne că mărfurile tale ajung la destinație la timp, în fiecare dată."
+            },
+            "3":{
+                "title":"Suport continuu",
+                "text":"Oferim suport personalizat pentru a asigura o experiență de transport fără probleme și comunicare eficientă în fiecare etapă."
+            },
+            "4":{
+                "title":"Flotă Modernă",
+                "text":"Beneficiază de serviciile noastre cu o flotă echipată cu tehnologie de ultimă generație pentru a asigura siguranța și eficiența transportului."
+            },
+            "5":{
+                "title":"Soluții Personalizate",
+                "text":"Ne adaptăm la nevoile tale specifice, oferind soluții personalizate și flexibile pentru a satisface cerințele tale de transport."
+            },
+            "6":{
+                "title":"Experiență și Profesionalism",
+                "text":"Cu o prezență de peste două decenii în industrie, avem expertiza necesară pentru a gestiona cu succes orice tip de transport internațional."
+            }
+            
+        }
+    },
+    "certificates":{
+        "subtitle":"Certificate",
+        "title":"Licență și certificate",
+        "text":"Ne mândrim cu angajamentul nostru față de cele mai înalte standarde de calitate și conformitate legală. Mai jos, vă prezentăm certificatele și licențele noastre care atestă profesionalismul și dedicația noastră în furnizarea de servicii de transport internațional și logistică."
+    },
+    "testimonials":{
+        "subtitle":"Recenzii",
+        "title":"Ce Spun Clientii Nostri",
+        "article":{
+            "1":{
+                "status":"Client Mulțumit",
+                "service":"Transport Mărfuri Generale",
+                "text":"Am apelat la LKW-ALEKS Spedition pentru transportul nostru de mărfuri generale, iar serviciul lor a fost excepțional. Livrări prompte, manipulare atentă a produselor noastre și o echipă profesionistă îi fac partenerul nostru preferat în logistica."
+            },
+            "2":{
+                "status":"Client Mulțumit",
+                "service":"Transport Agabaritic",
+                "text":"LKW-ALEKS Spedition a avut un rol important în gestionarea nevoilor noastre de transport agabaritic. De la încărcarea precisă la livrările la timp, angajamentul lor față de eficiență și fiabilitate îi diferențiază în industria logistică."
+            },
+            "3":{
+                "status":"Client Mulțumit",
+                "service":"Servicii Logistică",
+                "text":"Parteneriatul cu LKW-ALEKS Spedition pentru servicii logistice cuprinzătoare a optimizat întregul nostru lanț de aprovizionare. Soluțiile lor de la depozitare la distribuție au optimizat operațiunile noastre și au îmbunătățit eficiența generală."
+            },
+            "4":{
+                "status":"Client Mulțumit",
+                "service":"Transport Refrigerat",
+                "text":"Menținerea integrității produselor noastre sensibile la temperatură este crucială. Serviciul lor de transport refrigerat a livrat constant promisiunea de a păstra calitatea produselor noastre pe tot parcursul călătoriei."
+            }
+        }
+    },
+    "faq":{
+        "subtitle":"ÎF",
+        "title":"Întrebari Frecvente",
+        "questions":{
+            "1":{
+                "question":"Care sunt destinațiile acoperite de serviciile LKW-ALEKS Spedition?",
+                "answer":"Oferim tarife competitive de transport marfă cu camioane complete atît pentru export, cît şi pentru import, atît în, cît şi din ţări precum Portugalia, Spania, Franţa, Anglia, Belgia, Olanda, Germania, Danemarca, Suedia, Norvegia, Finlanda, Lituania, Letonia, Estonia, Italia, Elveţia, Austria, Cehia, Slovacia, Polonia, Ungaria, Bulgaria, Slovenia, Croaţia, Serbia, Turcia, Ucraina, Rusia, Romania, Kazahstan, Turkmenistan, Kirghizstan, Armenia, Georgia, ș.a."
+            },
+            "2":{
+                "question":"Cum pot obține o ofertă personalizată?",
+                "answer":"Pentru a obține o ofertă personalizată, contactați-ne prin telefon la +373 69 150 150 sau +373 69 150 151 sau prin e-mail la info@lkw-aleks.com, iar echipa noastră vă va oferi consultanță personalizată, identificând cele mai potrivite soluții pentru cerințele dumneavoastră."
+            },
+            "3":{
+                "question":"Ce baze convenții internaționale folosește LKW-ALEKS Spedition pentru executarea transporturilor?",
+                "answer":"Executăm transporturile în baza convențiilor internaționale CMR (Convenția privind Contractul de Transport Rutier Internațional de Mărfuri) și TIR (Convenţia vamală relativă la transportul internaţional de mărfuri sub acoperirea carnetului TIR)."
+            },
+            "4":{
+                "question":"Care sunt avantajele colaborării pe termen lung cu LKW-ALEKS Spedition?",
+                "answer":"Colaborarea pe termen lung cu noi aduce beneficii precum tarife competitive, prioritate în serviciile oferite, acces la facilități exclusive și consultanță specializată pentru optimizarea continuă a lanțului logistic."
+            }
+        }
+    },
+    "contact":{
+        "title":"Contactează-ne",
+        "moldova":"Moldova",
+        "romania":"România"
+    },
+    "footer":{
+        "company":{
+            "text":"Oferim transport internațional și expediție în regim de grupaj și exclusiv (de la 10kg până la 23000kg). Contactează-ne acum pentru a afla cum putem să îți susținem afacerea.",
+            "worktitle":"PROGRAM DE LUCRU",
+            "worktime":"Luni–Vineri 08:30–17:30"
+        },
+        "navigation":{
+            "title":"Navighează",
+            "home":"Acasă",
+            "aboutus":"Despre Noi",
+            "services":"Servicii",
+            "whyus":"De Ce Noi",
+            "certificates":"Certificate",
+            "testimonials":"Recenzii",
+            "faq":"ÎF",
+            "contact":"Contact"
+        },
+        "contact":{
+            "title":"Contactează-ne",
+            "moldova":"Republica Moldova",
+            "romania":"România",
+            "adress":"Adresa",
+            "phone":"Telefon",
+            "email":"Email"
+        }
     }
+
 }
