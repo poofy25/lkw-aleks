@@ -30,8 +30,8 @@ function Testimonials() {
             <div className={styles.header}>
                 <h2>Ce Spun Clientii Nostri</h2>
                 <span>
-                    <button onClick={handlePrev} ><img alt="Arrow Left Icon" src={arrowleft}/></button>
-                    <button onClick={handleNext}><img alt="Arrow Right Icon" src={arrowright}/></button>
+                    <button aria-label='Previous' onClick={handlePrev} ><img alt="Arrow Left Icon" src={arrowleft}/></button>
+                    <button aria-label='Next' onClick={handleNext}><img alt="Arrow Right Icon" src={arrowright}/></button>
                 </span>
             </div>
           

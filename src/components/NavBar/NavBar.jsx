@@ -92,7 +92,7 @@ function NavBar({width , language , setLanguage}) {
                     <LanguageDropdown language={language} setLanguage={setLanguage}/>
                 </>
                 :
-                <button onClick={menuBtnHandler} className={styles.menuBtn}>
+                <button aria-label='Menu' onClick={menuBtnHandler} className={styles.menuBtn}>
                     <div></div>
                     <div></div>
                     <div></div>

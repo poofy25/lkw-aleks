@@ -12,7 +12,7 @@ function Footer() {
 
             <section className={styles.content}>
                 <article className={styles.company}>
-                    <img src={logo}/>
+                    <img alt='Logo' src={logo}/>
                     <p>Oferim transport internațional și expediție în regim de grupaj și exclusiv (de la 10kg până la 23000kg). Contactează-ne acum pentru a afla cum putem să îți susținem afacerea.</p>
                     <h4>PROGRAM DE LUCRU</h4>
                     <p>{'Luni–Vineri 08:30–17:30'}</p>

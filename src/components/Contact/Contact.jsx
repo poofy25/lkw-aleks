@@ -19,8 +19,8 @@ function Contact() {
         <section>
             <h2>Contactează-ne</h2>
             <span>
-                <button className={contact && styles.active} onClick={()=>{setContact(true)}}>Moldova</button>
-                <button className={!contact && styles.active} onClick={()=>{setContact(false)}}>România</button>
+                <button aria-label='Moldova' className={contact && styles.active} onClick={()=>{setContact(true)}}>Moldova</button>
+                <button aria-label='Romania' className={!contact && styles.active} onClick={()=>{setContact(false)}}>România</button>
             </span>
             {contact ? 
             <div>
@@ -40,9 +40,9 @@ function Contact() {
             }
         </section>
         {contact ? 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.3043022449915!2d28.843862276057482!3d46.97953513106923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ecb4e57c40d%3A0x615087ec50268e69!2sLKW-ALEKS%20SPEDITION%20SRL!5e1!3m2!1sro!2sus!4v1702206802118!5m2!1sro!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title='Moldova Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.3043022449915!2d28.843862276057482!3d46.97953513106923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ecb4e57c40d%3A0x615087ec50268e69!2sLKW-ALEKS%20SPEDITION%20SRL!5e1!3m2!1sro!2sus!4v1702206802118!5m2!1sro!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             :
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.4075465520923!2d27.593415399999998!3d47.14987199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafbbd5795d45b%3A0x6474467ae6ae5f7e!2zQmxvYyA5QiwgQnVsZXZhcmR1bCDImnXIm29yYSA5QiwgSWHImWkgNzAwMTcwLCBSb23Dom5pYQ!5e0!3m2!1sro!2s!4v1702296426742!5m2!1sro!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title='Romania Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.4075465520923!2d27.593415399999998!3d47.14987199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafbbd5795d45b%3A0x6474467ae6ae5f7e!2zQmxvYyA5QiwgQnVsZXZhcmR1bCDImnXIm29yYSA5QiwgSWHImWkgNzAwMTcwLCBSb23Dom5pYQ!5e0!3m2!1sro!2s!4v1702296426742!5m2!1sro!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             }
         </section>
      );

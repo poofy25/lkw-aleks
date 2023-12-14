@@ -53,12 +53,12 @@ function LanguageDropdown({language , setLanguage}) {
     return ( 
 
         <div className='languageDropdownContainer'>
-            <button onClick={dropDownHandler} className='currentLanguage'><img src={flags[language]}/>{language}</button>
+            <button aria-label='Language' onClick={dropDownHandler} className='currentLanguage'><img src={flags[language]}/>{language}</button>
             <img alt='Language Flag' onClick={dropDownHandler} src={smallarrow} className='languagearrow'></img>
             <span className='languageDropdown'>
-                <button className='selected' onClick={(e)=>{languageClickHandler(e,'RO')}}><img alt='Romanian Flag' src={roFlag}/>RO</button>
-                <button onClick={(e)=>{languageClickHandler(e,'RU')}}><img alt='Russian Flag' src={ruFlag}/>RU</button>
-                <button onClick={(e)=>{languageClickHandler(e,'EN')}}><img alt='English Flag' src={enFlag}/>EN</button>
+                <button aria-label='Romanian' className='selected' onClick={(e)=>{languageClickHandler(e,'RO')}}><img alt='Romanian Flag' src={roFlag}/>RO</button>
+                <button aria-label='Russian' onClick={(e)=>{languageClickHandler(e,'RU')}}><img alt='Russian Flag' src={ruFlag}/>RU</button>
+                <button aria-label='English' onClick={(e)=>{languageClickHandler(e,'EN')}}><img alt='English Flag' src={enFlag}/>EN</button>
             </span>
         </div>
 
