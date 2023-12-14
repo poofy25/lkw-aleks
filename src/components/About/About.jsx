@@ -4,11 +4,14 @@ import aboutIMG from '/src/assets/img/about.png'
 import arrowright from '/src/assets/svg/arrowright.svg'
 import checkbox from '/src/assets/svg/checkbox.svg'
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function About() {
     return ( 
         <section id='desprenoi' className={styles.about}>
                 <section className={styles.imgSection}>
-                    <img alt='Background Image for About Section' src={aboutIMG}/>
+                    <LazyLoadImage effect='blur' alt='Background Image for About Section' src={aboutIMG}/>
                     <div><h3>20+</h3><p>ani de <br/> experienta</p></div>
                 </section>
                 <section className={styles.textSection}>
