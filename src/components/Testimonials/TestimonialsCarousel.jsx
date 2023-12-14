@@ -66,6 +66,13 @@ const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev , langJson }
           slidesToScroll: 1,
         }
       },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
     ]
   };
 

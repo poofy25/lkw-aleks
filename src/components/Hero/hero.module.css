@@ -35,6 +35,8 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: max-content;
     border-left: 4px solid #5080be;
+    max-width: 100%;
+    display: flex;
 }
 .hero > div > p {
     margin: 0;
@@ -88,7 +90,7 @@
         margin-top: 5rem;
     }
     .hero > h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
         max-width: 100%;
         margin-top: 0.35em;
         margin-bottom: 0.35em;
@@ -100,6 +102,9 @@
     }
     .hero > img{
         object-position: 60%;
+    }
+    .hero > a {
+        padding: 1rem 2rem 1rem 2rem;
     }
     
 }
@@ -122,6 +127,9 @@
 
     .hero {
         margin-top: 5rem;
+    }
+    .hero > h1{
+        max-width: 75%;
     }
 
 

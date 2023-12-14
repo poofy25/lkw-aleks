@@ -221,7 +221,9 @@ nav.small > .logoBar::before{
         display: none;
     }
     nav > .logoBar > img {
-        height: 50%;
+       height: 75%;
+       width: 60%;
+       object-fit:scale-down;
     }
     nav > .logoBar::before{
         border-bottom: 5rem solid #4F7FBE;

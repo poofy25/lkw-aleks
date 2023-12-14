@@ -32,7 +32,7 @@
 .imgSection > div{
     background-color: #050839;
     aspect-ratio: 1;
-    padding: 2rem;
+    padding: 1rem;
     color: #f7f7f7;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@
     font-weight: 600;
 }
 .textSection > h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .textSection > p {
     margin-top: 0;
@@ -135,13 +135,26 @@ align-items: center;
 @media only screen and (min-width: 0px) and (max-width:640px) {
     .about{
         flex-direction: column;
-        padding: 2rem 7.5vw 2rem 7.5vw;
+        padding: 2rem 7.5vw 4rem 7.5vw;
+        min-height: 0;
+    }
+    .imgSection {
+        display: none;
+    }
+    .textSection > h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width:992px) {
+    .about{
+        flex-direction: column;
+        padding: 2rem 7.5vw 4rem 7.5vw;
+        min-height: 0;
     }
     .imgSection {
         display: none;
     }
 }
-
-@media only screen and (min-width: 640px) and (max-width:992px) {}
 
 @media only screen and (min-width: 992px) and (max-width:1200px) {}

@@ -8,7 +8,7 @@
             "whyus":"De Ce Noi",
             "certificates":"Certificate",
             "testimonials":"Recenzii",
-            "faq":"ÎF",
+            "faq":"FAQ",
             "contact":"Contact"
         }
     },
@@ -134,7 +134,7 @@
         }
     },
     "faq":{
-        "subtitle":"ÎF",
+        "subtitle":"FAQ",
         "title":"Întrebari Frecvente",
         "questions":{
             "1":{
@@ -174,7 +174,7 @@
             "whyus":"De Ce Noi",
             "certificates":"Certificate",
             "testimonials":"Recenzii",
-            "faq":"ÎF",
+            "faq":"FAQ",
             "contact":"Contact"
         },
         "contact":{

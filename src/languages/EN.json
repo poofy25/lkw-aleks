@@ -13,24 +13,24 @@
         }
     },
     "hero": {
-        "subtitle": "International, Safe, and Efficient Transport",
-        "title": "Optimal Solutions to Any Destination",
+        "subtitle": "Safe and Efficient International Transport",
+        "title": "Tailored Solutions for Every Destination",
         "text": {
-            "1": "With over two decades of experience in international freight transport,",
-            "2": "LKW-ALEKS Spedition is your reliable solution for efficient and safe transport.",
-            "3": "Discover our top-notch services and the strong partnerships we build with our clients!"
+            "1": "Bringing over two decades of expertise to the realm of international freight transport,",
+            "2": "LKW-ALEKS Spedition stands as your reliable choice for streamlined and secure transportation solutions.",
+            "3": "Discover our top-notch services and the robust partnerships we build with our clients!"
         },
-        "btntext": "Get Customized Offer"
+        "btntext": "Get A Customized Quote"
     },
     "aboutus": {
         "subtitle": "About Us",
-        "title": "A History of Performance and Success",
+        "title": "A Legacy of Excellence and Achievement",
         "imgtext": "years of experience",
-        "text": "Founded in 2002, LKW-ALEKS Spedition is a company dedicated to providing a wide range of transport and logistics services to meet the diverse and demanding needs of the business environment. With over 20 years of experience in an ever-changing business environment, we have always aimed to respond promptly to our clients, ensuring they benefit from flexibility, professionalism, and the quality of services.",
+        "text": "Established in 2002, LKW-ALEKS Spedition is a devoted company offering an extensive range of transportation and logistics services, designed to meet the diverse and demanding needs of the business landscape. With over two decades of experience in a rapidly changing business environment, our commitment has always been to promptly cater to our clients, providing them with flexibility, professionalism, and top-notch service quality.",
         "checkboxtext": {
-            "1": "Reliable and Flexible Logistic Solutions",
-            "2": "Dedicated Team of Professionals",
-            "3": "Punctuality and Competitive Costs"
+            "1": "Reliable and Adaptive Logistic Solutions",
+            "2": "A Team of Dedicated Professionals",
+            "3": "Timeliness and Competitive Pricing"
         },
         "btntext": "Contact Us"
     },
@@ -42,62 +42,62 @@
     },
     "services": {
         "subtitle": "Our Services",
-        "title": "Customized Solutions for Any Request",
-        "text": "LKW-ALEKS Spedition offers a diverse range of integrated storage, distribution, and transport solutions worldwide, quickly and affordably!",
+        "title": "Customized Solutions for Every Demand",
+        "text": "LKW-ALEKS Spedition offers a diverse range of integrated storage, distribution, and transportation solutions worldwide, swiftly and affordably!",
         "service": {
             "1": {
                 "title": "International Road Transport",
-                "text": "We provide road transport services in groupage and exclusive mode, covering a wide range of weights from 10 kg to 23,000 kg to numerous destinations in Europe and Asia: Portugal, Spain, France, England, Belgium, Netherlands, Germany, Denmark, Sweden, Norway, Finland, Lithuania, Latvia, Estonia, Italy, Switzerland, Austria, Czech Republic, Slovakia, Poland, Hungary, Bulgaria, Slovenia, Croatia, Serbia, Turkey, Ukraine, Russia, Romania, Kazakhstan, Turkmenistan, Kyrgyzstan, Armenia, Georgia, and more."
+                "text": "We specialize in groupage and exclusive road transportation, covering a wide range of weights from 10 kg to 23,000 kg. Our services extend to numerous destinations across Europe and Asia, including but not limited to Portugal, Spain, France, England, Belgium, the Netherlands, Germany, Denmark, Sweden, Norway, Finland, Lithuania, Latvia, Estonia, Italy, Switzerland, Austria, the Czech Republic, Slovakia, Poland, Hungary, Bulgaria, Slovenia, Croatia, Serbia, Turkey, Ukraine, Russia, Romania, Kazakhstan, Turkmenistan, Kyrgyzstan, Armenia, Georgia, and more."
             },
             "2": {
-                "title": "Transport of General Goods",
-                "text": "Transport of general goods is a versatile and flexible solution for goods and products that do not require special handling or storage conditions. General goods can be transported using a variety of standard means of transport, such as curtain-side trucks, vans, trucks, vans, or dump trucks. This diversity of vehicles allows us to choose the most suitable option based on the specific needs of each client."
+                "title": "General Cargo Transportation",
+                "text": "General cargo transportation provides a versatile and flexible solution for goods that do not require special handling or storage conditions. We transport general cargo using various standard vehicles such as curtain-sided trucks, vans, lorries, or dump trucks. The diversity of our fleet allows us to select the most suitable option based on the specific needs of each client."
             },
             "3": {
-                "title": "Transport of Dangerous Goods (ADR)",
-                "text": "Dangerous goods, according to the ADR Convention, include substances and objects that, due to their physical, chemical, or biological characteristics, pose significant risks to health, safety, and the environment. The transport of dangerous goods requires special attention and specialized approaches. We understand the importance of ensuring a safe transport process, so each shipment is managed with responsibility and professionalism."
+                "title": "Dangerous Goods Transportation (ADR)",
+                "text": "Dangerous goods, as defined by the ADR Convention, encompass substances and objects that, due to their physical, chemical, or biological characteristics, pose significant risks to health, safety, and the environment. Transporting hazardous goods requires special attention and specialized approaches. We understand the importance of ensuring a safe transport process, managing each shipment responsibly and professionally."
             },
             "4": {
-                "title": "Bulk Transport",
-                "text": "Bulk transport is the ideal solution when the cargo exceeds the standard dimensions or weight limits associated with ordinary road transport. Regardless of the type of cargo, our team of specialists identifies the right route and chooses the ideal truck to ensure the success of each transport."
+                "title": "Heavy Cargo Transportation",
+                "text": "Heavy cargo transportation is the ideal solution when goods exceed the standard size or weight limits associated with regular road transport. Regardless of the type of cargo, our team of specialists identifies the right route and selects the ideal truck to ensure the success of each transport."
             },
             "5": {
                 "title": "Refrigerated Transport",
-                "text": "We offer complete refrigerated transport services for frozen and perishable goods, ensuring controlled temperatures between -18°C and 20°C. Equipped with state-of-the-art technology, our trucks are equipped with advanced temperature control systems, guaranteeing the integrity of products from departure to destination."
+                "text": "We offer comprehensive refrigerated transport services for frozen and perishable goods, maintaining controlled temperatures between -18°C and 20°C. Equipped with cutting-edge technology, our trucks feature advanced temperature control systems, ensuring the integrity of products from the point of departure to the destination."
             },
             "6": {
                 "title": "Logistics Services",
-                "text": "We offer not only transport services but also a complete range of auxiliary services to facilitate and optimize the entire logistics chain. These include storage, internal or intra-community distribution of goods, and the mediation of customs formalities. With a focus on quality and efficiency, our priority is to provide complete and personalized solutions for every aspect of logistics."
+                "text": "We provide not only transportation services but also a complete range of auxiliary services to facilitate and optimize your entire logistics chain. These include storage, internal or cross-border distribution of goods, and intermediation in customs formalities. Emphasizing quality and efficiency, our priority is to offer comprehensive and personalized solutions for every aspect of logistics."
             }
         }
     },
     "whyus": {
         "subtitle": "WHY US?",
-        "title": "Factors That Make a Difference",
+        "title": "Why us? Factors that Set Us Apart",
         "article": {
             "1": {
                 "title": "Integrated Logistics",
-                "text": "We offer complete logistics solutions, efficiently managing all stages of the transport process. From storage to distribution and real-time tracking, we provide transparency and total control."
+                "text": "We provide comprehensive logistics solutions, efficiently managing every stage of the transportation process. From storage to distribution and real-time tracking, we offer transparency and complete control."
             },
             "2": {
                 "title": "Punctuality",
-                "text": "In the business world, every second counts. We place special emphasis on punctuality, ensuring that your goods reach their destination on time, every time."
+                "text": "In the business world, every second matters. We place a special emphasis on punctuality, ensuring your goods reach their destination on time, every time."
             },
             "3": {
                 "title": "Continuous Support",
-                "text": "We provide personalized support to ensure a seamless transport experience and efficient communication at every stage."
+                "text": "We offer personalized support to ensure a seamless transportation experience and effective communication at every stage."
             },
             "4": {
                 "title": "Modern Fleet",
-                "text": "Benefit from our services with a fleet equipped with state-of-the-art technology to ensure the safety and efficiency of transport."
+                "text": "Benefit from our services with a fleet equipped with state-of-the-art technology to ensure the safety and efficiency of transportation."
             },
             "5": {
                 "title": "Customized Solutions",
-                "text": "We adapt to your specific needs, offering personalized and flexible solutions to meet your transport requirements."
+                "text": "We adapt to your specific needs, providing personalized and flexible solutions to meet your transportation requirements."
             },
             "6": {
                 "title": "Experience and Professionalism",
-                "text": "With a presence of over two decades in the industry, we have the expertise to successfully manage any type of international transport."
+                "text": "With a presence of over two decades in the industry, we have the expertise needed to successfully manage any type of international transport."
             }
         }
     },

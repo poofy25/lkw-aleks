@@ -103,6 +103,7 @@
     color: #f7f7f7;
     border: 1px solid rgba(0,0,0,0.5);
     font-size: 1rem;
+    border-radius: 4px;
 }
 .languages > button.active{
     opacity: 0.5;
