@@ -19,7 +19,7 @@ function Services() {
             <p>LKW-ALEKS Spedition oferă o gamă variată de soluții integrate de depozitare, distribuție si transport, în toate regiunile lumii, rapid și accesibil!</p>
             <section>
                 <article>
-                <LazyLoadImage effect="blur" src={service1}></LazyLoadImage>
+                <LazyLoadImage effect="blur" alt="Services 1 Image" src={service1}></LazyLoadImage>
                     <section>
                         <h4>Transport Rutier Internațional</h4>
                         <p>
@@ -29,7 +29,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <LazyLoadImage effect="blur" src={service3}></LazyLoadImage>
+                    <LazyLoadImage effect="blur"  alt="Services 2 Image" src={service3}></LazyLoadImage>
                     <section>
                         <h4>Transport de Mărfuri Generale</h4>
                         <p>
@@ -39,7 +39,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <LazyLoadImage effect="blur" src={service4}></LazyLoadImage>
+                    <LazyLoadImage effect="blur"  alt="Services 3 Image" src={service4}></LazyLoadImage>
                     <section>
                         <h4>Transport de Mărfuri Periculoase (ADR)</h4>
                         <p>
@@ -49,7 +49,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <LazyLoadImage effect="blur" src={service5}></LazyLoadImage>
+                    <LazyLoadImage effect="blur"  alt="Services 4 Image" src={service5}></LazyLoadImage>
                     <section>
                         <h4>Transport Agabaritic</h4>
                         <p>
@@ -59,7 +59,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <LazyLoadImage effect="blur" src={service7}></LazyLoadImage>
+                    <LazyLoadImage effect="blur"  alt="Services 5 Image" src={service7}></LazyLoadImage>
                     <section>
                         <h4>Transport Frigorific</h4>
                         <p>
@@ -69,7 +69,7 @@ function Services() {
                     </section>
                 </article>
                 <article>
-                    <LazyLoadImage effect="blur" src={service2}></LazyLoadImage>
+                    <LazyLoadImage effect="blur"  alt="Services 6 Image" src={service2}></LazyLoadImage>
                     <section>
                         <h4>Servicii de logistică</h4>
                         <p>

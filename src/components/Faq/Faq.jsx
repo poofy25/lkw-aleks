@@ -62,7 +62,7 @@ function FAQ() {
 
     return ( 
         <section id='faq' className={styles.faq}>
-            <LazyLoadImage effect="blur" src={faqImg}></LazyLoadImage>
+            <LazyLoadImage effect="blur" alt='FAQ Background image' src={faqImg}></LazyLoadImage>
             <span className={styles.gradient}></span>
             <div className={styles.div}><p>FAQ</p></div>
             <h2>Întrebari Frecvente</h2>

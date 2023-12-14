@@ -54,11 +54,11 @@ function LanguageDropdown({language , setLanguage}) {
 
         <div className='languageDropdownContainer'>
             <button onClick={dropDownHandler} className='currentLanguage'><img src={flags[language]}/>{language}</button>
-            <img onClick={dropDownHandler} src={smallarrow} className='languagearrow'></img>
+            <img alt='Language Flag' onClick={dropDownHandler} src={smallarrow} className='languagearrow'></img>
             <span className='languageDropdown'>
-                <button className='selected' onClick={(e)=>{languageClickHandler(e,'RO')}}><img src={roFlag}/>RO</button>
-                <button onClick={(e)=>{languageClickHandler(e,'RU')}}><img src={ruFlag}/>RU</button>
-                <button onClick={(e)=>{languageClickHandler(e,'EN')}}><img src={enFlag}/>EN</button>
+                <button className='selected' onClick={(e)=>{languageClickHandler(e,'RO')}}><img alt='Romanian Flag' src={roFlag}/>RO</button>
+                <button onClick={(e)=>{languageClickHandler(e,'RU')}}><img alt='Russian Flag' src={ruFlag}/>RU</button>
+                <button onClick={(e)=>{languageClickHandler(e,'EN')}}><img alt='English Flag' src={enFlag}/>EN</button>
             </span>
         </div>
 

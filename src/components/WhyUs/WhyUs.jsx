@@ -17,14 +17,14 @@ function WhyUs() {
 
         <section id='decenoi' className={styles.whyUs}>
 
-            <span><img src={arrowdownright}/>DE CE NOI?</span>
+            <span><img alt="Arrow Down Right Icon" src={arrowdownright}/>DE CE NOI?</span>
             <h2>Motive care fac diferența</h2>
 
             <div>
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={box}/></div>
+                            <div><img alt="Box Icon" src={box}/></div>
                             <h3>Logistică integrată</h3>
                         </header>
                         <span>
@@ -36,7 +36,7 @@ function WhyUs() {
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={partners}/></div>
+                            <div><img alt="Partners Icon" src={partners}/></div>
                             <h3>Punctualitate</h3>
                         </header>
                         <span>
@@ -48,7 +48,7 @@ function WhyUs() {
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={support}/></div>
+                            <div><img alt="Support Icon" src={support}/></div>
                             <h3>Suport continuu</h3>
                         </header>
                         <span>
@@ -60,7 +60,7 @@ function WhyUs() {
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={worldwide}/></div>
+                            <div><img alt="Worldwide Icon" src={worldwide}/></div>
                             <h3>Flotă Modernă</h3>
                         </header>
                         <span>
@@ -72,7 +72,7 @@ function WhyUs() {
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={solution}/></div>
+                            <div><img alt="Solution Icon" src={solution}/></div>
                             <h3>Soluții Personalizate</h3>
                         </header>
                         <span>
@@ -84,7 +84,7 @@ function WhyUs() {
                 <article className={styles.whyUsArticle}>
                     <article className={styles.articleContent}>
                         <header>
-                            <div><img src={achievement}/></div>
+                            <div><img alt="Achievement Icon" src={achievement}/></div>
                             <h3>Experiență și Profesionalism</h3>
                         </header>
                         <span>

@@ -66,14 +66,14 @@ function NavBar({width , language , setLanguage}) {
 
     return ( 
         <nav className={styles.none}>
-            <section className={styles.logoBar}><img src={logoIMG}/></section>
+            <section className={styles.logoBar}><img alt='Logo' src={logoIMG}/></section>
             <section className={styles.contactBar}>
                 <span className={styles.contacts}>
-                    <a href='mailto:info@lkw-aleks.com'><img src={email}/>info@lkw-aleks.com</a>
-                    <a href='tel:+37369150151'><img src={call}/>+373 69 150 151</a>
-                    <a href='tel:++40 758 074 350'><img src={call}/>+40 758 074 350</a>
+                    <a href='mailto:info@lkw-aleks.com'><img alt='Email Icon' src={email}/>info@lkw-aleks.com</a>
+                    <a href='tel:+37369150151'><img alt='Call Icon' src={call}/>+373 69 150 151</a>
+                    <a href='tel:++40 758 074 350'><img alt='Call Icon' src={call}/>+40 758 074 350</a>
                 </span>
-                <a className={styles.iconLink}><img/></a>
+                {/* <a className={styles.iconLink}><img/></a> */}
                 <a href='#contact' className={styles.contactsBtn}>{'Contacte >'}</a>
             </section>
             <section className={styles.navigationBar}>

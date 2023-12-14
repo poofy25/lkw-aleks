@@ -24,18 +24,18 @@ function Contact() {
             </span>
             {contact ? 
             <div>
-            <a><img src={location}/>bd. Traian 22, Chișinău</a>
-            <a href='mailto:info@lkw-aleks.com'><img src={email}/>info@lkw-aleks.com</a>
-            <a href='tel:+373 69 150 151'><img src={call}/>+373 69 150 150</a>
-            <a href='tel:+373 69 150 151'><img src={call}/>+373 69 150 151</a>
-            <a href='tel:+373 69 102 681'><img src={call}/>+373 69 102 681</a>
-            <a href='tel:+373 78 000 155'><img src={call}/>+373 78 000 155</a>
+            <a><img alt='Location Icon' src={location}/>bd. Traian 22, Chișinău</a>
+            <a href='mailto:info@lkw-aleks.com'><img alt='Email Icon' src={email}/>info@lkw-aleks.com</a>
+            <a href='tel:+373 69 150 151'><img alt='Call Icon' src={call}/>+373 69 150 150</a>
+            <a href='tel:+373 69 150 151'><img alt='Call Icon' src={call}/>+373 69 150 151</a>
+            <a href='tel:+373 69 102 681'><img alt='Call Icon' src={call}/>+373 69 102 681</a>
+            <a href='tel:+373 78 000 155'><img alt='Call Icon' src={call}/>+373 78 000 155</a>
             </div>
             :
             <div>
-            <a><img src={location}/>bd. Țuțora 9B, Iași</a>
-            <a href='mailto:info@lkw-aleks.com'><img src={email}/>info@lkw-aleks.com</a>
-            <a href='tel:+40 758 074 350'><img src={call}/>+40 758 074 350</a>
+            <a><img alt='Location Icon' src={location}/>bd. Țuțora 9B, Iași</a>
+            <a href='mailto:info@lkw-aleks.com'><img alt='Email Icon' src={email}/>info@lkw-aleks.com</a>
+            <a href='tel:+40 758 074 350'><img alt='Call Icon' src={call}/>+40 758 074 350</a>
             </div>
             }
         </section>

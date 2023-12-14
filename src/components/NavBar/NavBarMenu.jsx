@@ -48,14 +48,14 @@ function NavBarMenu({status , setStatus , language , setLanguage}) {
             <a onClick={()=>{setStatus(!status)}} className={styles.lasta} href='#contact'>Contact</a>
 
             <section className={styles.languages}>
-                <button onClick={()=>{setLanguage('RO')}} className={language==='RO' && styles.active}><img src={roFlag}/>RO</button>
-                <button onClick={()=>{setLanguage('RU')}} className={language==='RU' && styles.active}><img src={ruFlag}/>RU</button>
-                <button onClick={()=>{setLanguage('EN')}} className={language==='EN' && styles.active}><img src={enFlag}/>EN</button>
+                <button onClick={()=>{setLanguage('RO')}} className={language==='RO' && styles.active}><img alt="Romanian Flag" src={roFlag}/>RO</button>
+                <button onClick={()=>{setLanguage('RU')}} className={language==='RU' && styles.active}><img alt="Russian Flag" src={ruFlag}/>RU</button>
+                <button onClick={()=>{setLanguage('EN')}} className={language==='EN' && styles.active}><img alt="English Flag" src={enFlag}/>EN</button>
             </section>
 
-            <span><img src={call}/><a href='tel:+37369150150'>+373 69 150 150</a></span>
-            <span><img src={call}/><a href='tel:+40758074350'>+40 758 074 350</a></span>
-            <span><img src={email}/><a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a></span>
+            <span><img alt="Call Icon" src={call}/><a href='tel:+37369150150'>+373 69 150 150</a></span>
+            <span><img alt="Call Icon" src={call}/><a href='tel:+40758074350'>+40 758 074 350</a></span>
+            <span><img alt="Email Icon" src={email}/><a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a></span>
             {/* <div className={styles.social}><img src={facebook}/></div> */}
 
             </section>

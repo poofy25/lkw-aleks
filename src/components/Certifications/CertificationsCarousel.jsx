@@ -106,7 +106,7 @@ const CertificationsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
         {certificationsData.map((certification) => (
           <div className='certificationWrapper' key={certification.id}>
             <article className='certification' >
-            <LazyLoadImage effect="blur" src={certification.src}></LazyLoadImage>
+            <LazyLoadImage effect="blur" alt='Certificate Image' src={certification.src}></LazyLoadImage>
 
             </article>
            </div>

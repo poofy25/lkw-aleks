@@ -78,7 +78,7 @@ const TestimonialsCarousel = ({ carouselRef, handleNext, handlePrev }) => {
           <div className='testimonialWrapper' key={testimonial.id}>
             <article className='testimonial' >
                 <div>
-                <LazyLoadImage effect="blur" src={testimonial.src}></LazyLoadImage>
+                <LazyLoadImage effect="blur" alt="Testimonial Picture" src={testimonial.src}></LazyLoadImage>
 
                     <span>
                         <p>{testimonial.title}</p>

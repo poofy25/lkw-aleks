@@ -36,14 +36,14 @@ function Footer() {
                     <div className={styles.contactWrapper}>
                         <h4>Republica Moldova</h4>
                         <div>
-                            <img src={location}/>
+                            <img alt='Location Icon' src={location}/>
                             <span>
                                 <p>Adresa</p>
                                 <a href='#contact'>bd. Traian 22, Chișinău</a>
                             </span>
                         </div>
                         <div>
-                            <img src={call}/>
+                            <img alt='Call Icon' src={call}/>
                             <span>
                                 <p>Telefon</p>
                                 <a href='tel:+373 69 150 151'>+373 69 150 150</a>
@@ -53,7 +53,7 @@ function Footer() {
                             </span>
                         </div>
                         <div>
-                        <img src={email}/>
+                        <img alt='Email Icon' src={email}/>
                         <span>
                             <p>Email</p>
                             <a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a>
@@ -63,21 +63,21 @@ function Footer() {
                     <div className={styles.contactWrapper}>
                         <h4>România</h4>
                         <div>
-                            <img src={location}/>
+                            <img  alt='Location Icon'src={location}/>
                             <span>
                                 <p>Adresa</p>
                                 <a href='#contact'>bd. Țuțora 9B, Iași</a>
                             </span>
                         </div>
                         <div>
-                            <img src={call}/>
+                            <img alt='Call Icon' src={call}/>
                             <span>
                                 <p>Telefon</p>
                                 <a href='tel:+40 758 074 350 '>+40 758 074 350 </a>
                             </span>
                         </div>
                         <div>
-                            <img src={email}/>
+                            <img alt='Email Icon' src={email}/>
                             <span>
                                 <p>Email</p>
                                 <a href='mailto:info@lkw-aleks.com'>info@lkw-aleks.com</a>

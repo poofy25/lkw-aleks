@@ -6,7 +6,7 @@ import arrowright from '/src/assets/svg/arrowright.svg'
 function Hero() {
     return ( 
         <section id='acasa' className={styles.hero}>
-            <img src={heroIMG}/>
+            <img alt='Hero Section Background Image' src={heroIMG}/>
             <span className={styles.gradient}></span>
             <div>
                 <p>Transport internațional, sigur și eficient </p>
@@ -19,7 +19,7 @@ function Hero() {
             <br/>
             Descoperă serviciile noastre de top și parteneriatele solide pe care le construim cu clienții noștri!
             </p>
-            <a href='#contact'>Obține oferta personalizată <img src={arrowright}/></a>
+            <a href='#contact'>Obține oferta personalizată <img alt='Arrow Right Icon' src={arrowright}/></a>
         </section>
      );
 }
