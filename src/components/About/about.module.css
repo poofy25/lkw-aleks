@@ -17,11 +17,17 @@
     justify-content: center;
     position: relative;
 }
-.imgSection > img {
+.imgSection > span {
     width: 70%;
     aspect-ratio: 10/9;
     border-radius: 8px;
     object-fit: cover;
+    overflow: hidden;
+}
+.imgSection > span > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .imgSection > div{
     background-color: #050839;
