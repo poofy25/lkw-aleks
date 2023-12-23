@@ -38,7 +38,7 @@ function Contact({language}) {
             </span>
             {contact ? 
             <div>
-            <a><img alt='Location Icon' src={location}/>bd. Traian 22, Chișinău</a>
+            <a><img alt='Location Icon' src={location}/>{langJson.traian ? langJson.traian : 'bd. Traian'} 22, {langJson.chisinau ? langJson.chisinau : 'Chișinău'}</a>
             <a href='mailto:info@lkw-aleks.com'><img alt='Email Icon' src={email}/>info@lkw-aleks.com</a>
             <a href='tel:+373 69 150 151'><img alt='Call Icon' src={call}/>+373 69 150 150</a>
             <a href='tel:+373 69 150 151'><img alt='Call Icon' src={call}/>+373 69 150 151</a>
@@ -47,7 +47,7 @@ function Contact({language}) {
             </div>
             :
             <div>
-            <a><img alt='Location Icon' src={location}/>bd. Țuțora 9B, Iași</a>
+            <a><img alt='Location Icon' src={location}/>{langJson.tutora ? langJson.tutora : 'bd. Țuțora'} 9B,{langJson.iasi ? langJson.iasi : 'Iași'}</a>
             <a href='mailto:info@lkw-aleks.com'><img alt='Email Icon' src={email}/>info@lkw-aleks.com</a>
             <a href='tel:+40 758 074 350'><img alt='Call Icon' src={call}/>+40 758 074 350</a>
             </div>

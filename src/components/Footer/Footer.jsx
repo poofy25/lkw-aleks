@@ -53,7 +53,7 @@ function Footer({language}) {
                             <img alt='Location Icon' src={location}/>
                             <span>
                                 <p>{langJson.contact.adress}</p>
-                                <a href='#contact'>bd. Traian 22, Chișinău</a>
+                                <a href='#contact'>{langJson.contact.traian ? langJson.contact.traian : 'bd. Traian'} 22, {langJson.contact.chisinau ? langJson.contact.chisinau : 'Chișinău'}</a>
                             </span>
                         </div>
                         <div>
@@ -80,7 +80,7 @@ function Footer({language}) {
                             <img  alt='Location Icon'src={location}/>
                             <span>
                                 <p>{langJson.contact.adress}</p>
-                                <a href='#contact'>bd. Țuțora 9B, Iași</a>
+                                <a href='#contact'>{langJson.contact.tutora ? langJson.contact.tutora : 'bd. Țuțora'} 9B, {langJson.contact.iasi ? langJson.contact.iasi : 'Iași'}</a>
                             </span>
                         </div>
                         <div>
